@@ -29,4 +29,4 @@ To get involved sign up for the [moja global Slack](https://join.slack.com/t/moj
 | [LFX Mentorship](https://lfx.linuxfoundation.org/tools/mentorship/)        | Mentorship initiative by the Linux Foundation                      |         |
 | [Google Season of Docs](https://developers.google.com/season-of-docs) | Mentorship initiative by Google Developers for technical writers   |         |
 | [Outreachy Internships](https://www.outreachy.org/) | Mentorship initiative for under-represented community members      |         |
-| [Google Summer of Code](https://summerofcode.withgoogle.com/) | Mentorship initiative by Google Developers for student developers. |         |
+| [Google Summer of Code](https://summerofcode.withgoogle.com/) | Mentorship initiative by Google Developers for student developers. |  [google-summer-of-code](google-summer-of-code)       |
