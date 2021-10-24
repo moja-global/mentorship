@@ -4,7 +4,7 @@
 
 ## Moja global & Google Season of Docs
 
-Students can indicate their interest in working with moja global by just sending an email to [info@moja.global](mailto:info@moja.global). Please join our join our [Slack community](https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw) and the **#documentation** channel it you wish to participate voluntarily. We need all the help we can get!
+Students can indicate their interest in working with moja global by just sending an email to [info@moja.global](mailto:info@moja.global). Please join our join our [Slack community](https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw) and the **#documentation** channel if you wish to participate voluntarily. We need all the help we can get!
 
 ## Past GSoD projects
 
