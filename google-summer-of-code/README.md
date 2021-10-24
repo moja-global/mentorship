@@ -18,3 +18,15 @@ Students can indicate their interest in working with moja global by just sending
 
 - [GSoC 2021 Ideas List](GSOC-2021-Ideas.md)
 - [GSoC 2020 Ideas List](GSOC-2020-Ideas.md)
+
+## Application Process
+
+Moja global puts up the ideas list early so we can define them together. We want to work with potential student developers BEFORE GSoC starts. So get in touch. Check out the [eligibility criteria](https://summerofcode.withgoogle.com/rules/) and the [application process](https://summerofcode.withgoogle.com/how-it-works/).
+
+Here are the steps and some tips on getting started:
+
+1. Think of a good idea – For reference from last year see our previous year's idea lists and selected projects.
+2. Do some research yourself based on the idea, write up a proposal draft.
+3. Create an issue on this repository with the proposal draft and share it on the relevant channel on Slack workspace.
+4. Based on feedback, write a full proposal and submit it to Google Summer of Code website.
+5. If accepted, you will be working with a mentor as a student developer.

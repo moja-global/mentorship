@@ -19,3 +19,7 @@ The application process for the 2021 December to 2022 March round is currently o
 ## Ideas List
 
 - [Outreachy project for the 2021 December round](OUTREACHY-2021-PROJECT-1.md)
+
+## Application process
+
+Before applying to Outreachy, you should first go through the [eligibility criteria](https://www.outreachy.org/docs/applicant/#eligibility) thoroughly. The first step in the application process is the initial application. In the initial application, you have to provide your basic information, your time commitment, and 4 [essay questions](https://www.outreachy.org/docs/applicant/#initial-application). After a result release, successful candidates would work with the interest organizations during the contribution period. A final application/proposal should be drafted and reviewed, before you put up a final application on the Outreachy website.
