@@ -1,0 +1,20 @@
+name: Documentation linter
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**.md'
+
+  push:
+    branches: [ main ]
+    paths:
+      - '**.md'
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Broken link checker
+        uses: technote-space/broken-link-checker-action@v2
