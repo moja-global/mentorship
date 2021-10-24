@@ -24,3 +24,9 @@ The past mentees of the project were Mohammad Warid , Shubham Karande, Sneha Mis
 
 - [LFX 2021](lfx-2021.md)
 - [LFX 2020](lfx-2020.md)
+
+## Application process
+
+If you are planning to apply as a mentee participate in the LFX Mentorship program, you'll have to apply as a mentee on the LFX Mentorship website. Please see the [LFX Mentorship guidelines](https://docs.linuxfoundation.org/lfx/mentorship/mentee-guide) for more details.
+
+Further information on the application process is covered by the LFX Mentorship documentation. Candidates would need to provide cover letters (Statement of Purpose) while applying, so mentors may review them. Once you've applied, your application moves to the pending state until a mentor will review it and assign some tasks. The stipend guides and amounts are listed on [mentee stipend documentation](https://docs.linuxfoundation.org/lfx/mentorship/mentee-stipends.)

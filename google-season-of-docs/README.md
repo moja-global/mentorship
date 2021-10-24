@@ -24,3 +24,15 @@ Students can indicate their interest in working with moja global by just sending
 ## Ideas list
 
 - [GSoD 2021 Project](GSOD-2021-Project.md)
+
+## Application Process
+
+Moja global puts up the ideas list early so we can define them together. We want to work with potential technical writers BEFORE GSoD starts. So get in touch. Check out the [technical writer guide](https://developers.google.com/season-of-docs/docs/tech-writer-guide) and [creating a statement of interest](https://developers.google.com/season-of-docs/docs/tech-writer-statement).
+
+Here are the steps and some tips on getting started:
+
+1. Think of a good idea – For reference from last year see our previous year's idea lists and selected projects.
+2. Do some research yourself based on the idea, write up a proposal draft.
+3. Create an issue on this repository with the proposal draft and share it on the relevant channel on Slack workspace.
+4. Based on feedback, write a full proposal and submit it to us at [info@moja.global](mailto:info@moja.global).
+5. If accepted, you will be working with a mentor as a technical writer.
