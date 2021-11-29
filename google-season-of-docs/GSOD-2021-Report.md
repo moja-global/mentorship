@@ -2,7 +2,7 @@
 
 **Project**: Develop a content strategy to consolidate and promote documentation for the FLINT.
 
-**Organization** or Project: moja global (https://moja.global)
+**Organization**: moja global (https://moja.global)
 
 **Organization Description**: moja global’s mission is to support ambitious climate action by developing pioneering, open-source software – including the groundbreaking FLINT software – to help users accurately and affordably estimate greenhouse gas emissions and removals from forestry, agriculture and other land uses (AFOLU).
 
