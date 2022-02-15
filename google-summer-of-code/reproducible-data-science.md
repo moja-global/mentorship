@@ -8,11 +8,11 @@ Andrew O'Reilly-Nugent (2022)
 
 | **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
 | -------------                          | ------------              | ------------- | -----------              |
-| {{ Hard }} | {{ High }} | {{ Docker, Python, DVC, CML }}         | {{ [@aornugent][andrew@moja.global]}} |
+|  Hard  |  High  | Docker, Python, DVC, CML  | [@aornugent](https://github.com/aornugent); [andrew@moja.global](andrew@moja.global)}} |
 
 moja global's community run earth system simulations to track the flow of carbon in the forestry and land sectors. Models are calibrated to account climate, forest types, disturbances like fires or hurricanes and land-use transitions.
 
-We aim to make these simulations trivially reproducible by streamlining the workflow of data scientists that use our software. We provide pre-built containers with versioned code but do not yet apply this process to our data. Members of the FLINTcloud aim to add Data version control (DVC) and Continuous machine learning (CML) to our deployment scenario templates.
+We aim to make these simulations trivially reproducible by streamlining the workflow of data scientists that use our software. We provide pre-built containers with versioned code but do not yet apply this process to our data. Members of the FLINTcloud project aim to add Data version control (DVC) and Continuous machine learning (CML) to our deployment scenario templates.
 
 The goal of DVC is to bring agility, reproducibility, and collaboration into existing data science workflows.
 
