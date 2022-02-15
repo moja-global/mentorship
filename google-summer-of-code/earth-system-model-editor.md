@@ -24,7 +24,7 @@ moja global's software is strongly targeted at a specific scientific domain - gr
 
 In 2021 we began several projects to increase the accessibility of the Full Lands Integration Tool (FLINT) by providing including the FLINTui project. FLINTui is a service or tool that is part of the moja global ecosystem built around FLINT.
 
-Our UI experiment provides a proof of concept and a solid foundation, but interested candidates must be able to reflect on the macro-architecture of the project and take a leadership role in establishing the direction of the project. GCBM configuration is an intimidating task and there is limited prior art to draw from.
+Our UI experiment provides a proof of concept and a solid foundation, but interested candidates must be able to reflect on the macro-architecture of the project and take a leadership role in establishing the direction of the project. GCBM configuration is an intimidating task and there is limited prior art to draw from. 
 
 The FLINTui aims to change that.
 
