@@ -1,4 +1,4 @@
-# Google Summer of Code 2021 Ideas
+# Google Summer of Code 2022 Ideas
 
 ## About moja global
 
@@ -25,7 +25,7 @@ The project involves the development of a GCBM Simulation Editor for FLINT-UI. W
 | Intensity             | Moderate                                                                               |
 | Priority              | High                                                                                   |
 | Skills                | VueJS, Flask, Docker                                                                   |
-| Project Size          | Large                                                                                 |
+| Project Size          | Large                                                                                  |
 | Preferred Contributor | Student/Professional                                                                   |
 | Mentors               | [@aornugent](https://github.com/aornugent), [@gabalafou](https://github.com/gabalafou) |
 
