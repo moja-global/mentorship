@@ -148,3 +148,51 @@ During this project, the developer will be working with the Technical Steering C
 ### First steps
 
 Get FLINT.Reporting up and running on your local machine by following the docs and understand the various microservices and software components. After setup and initial discovery, share your findings on `#reporting-tool` channel.
+
+## Idea: Building UI library for moja global
+
+### Abstract
+
+Moja global community currently maintains four User-interface (UI) projects, all of which follow a vastly different design pattern, user-interface style and approach. It has led to specific inconsistencies and gaps in the UI design and development process, which is a major roadblock for the community looking to start the work on new UI-based projects.
+
+Moja global User-interface (UI) library aims to bring forward an intuitive, consistent, and easy-to-use interface that can help our developers within the User-Interface working group and users to quickly accomplish their tasks. The UI library would aim to considerably improve our design & development workflow and meet the acceptable web accessibility requirements for our potential users. A UI library would help us mitigate popular UI-development issues like inconsistent user-experience, performance issues, accessibility requirements and more. 
+
+The aim of this project is to build a unified and consistent design language to help our contributors and users. To achieve this, a centralized collection of components would be developed which will encompass the color branding of moja global, typography, spacing, buttons, modals and forms. The big picture is that the UI library will allow all the upcoming moja global projects, with a client-facing focus, to have a consistent design language that will help us to quickly and easily build their user-interface.
+
+| Category              | Rating                                       |
+| --------------------- | -------------------------------------------- |
+| Intensity             | Medium                                       |
+| Priority              | Low                                          |
+| Skills                | JavaScript/TypeScript, UI/UX, Design Systems |
+| Project Size          | Medium                                       |
+| Preferred Contributor | Student/Professional                         |
+| Mentors               | TBD                                          |
+
+### Project goals
+
+In 2021 we began several projects to increase the accessibility of the Full Lands Integration Tool (FLINT) by providing including the FLINT-UI project. FLINT-UI is a service or tool that is part of the moja global ecosystem built around FLINT.
+
+An interesting outcome of the project was the development of multiple reusable components that can be used by other UI-specific projects within moja global. We are expecting contributors to build on that experience and develop a full-fledged UI library for moja global that will help represent the branding of moja global in the wider open-source community.
+
+The project would entail:
+
+- Study existing User-interface (UI) projects at moja global and sketch out components to be designed and developed.
+- Move/update all React and Vue pages to the design system while making sure they meet the standards.
+- Design & develop the components while building clear standards on how the components would be utilized across moja global projects.
+- Package the UI library as a stand-alone dependency to be used seamlessly with grace.
+
+### Technical skills
+
+During this project, the developer will be working with multiple stakeholders across various working groups under the Technical Steering Committee (TSC) on various aspects of engineering: design, development, testing and packaging. Experience with JavaScript/TypeScript, Design systems, UI/UX is preferable. Understanding of moja global projects like FLINT-UI, Community Website, FLINT.Reporting is useful.
+
+### Resources
+
+- Design Systems: https://www.designsystems.com/
+- FLINT-UI: https://github.com/moja-global/FLINT-UI
+- FLINT.Reporting: https://github.com/moja-global/FLINT.Reporting
+- Community Website: https://github.com/moja-global/community-website 
+- Moja global branding: https://community.moja.global/docs/moja-global-branding
+
+### First steps
+
+Study the UI-projects at moja global, and create a list of components that can be used across the moja global ecosystem. Share your findings on the `#user-interface` channel.
