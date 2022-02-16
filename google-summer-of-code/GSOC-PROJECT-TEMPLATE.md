@@ -19,13 +19,13 @@
 
 > Share in details about the goals of your project. Add any useful background information that will help the contributors understand the goals of your project. Breakdown the goals into specific pointers for the contributors.
 
-## Technical Details
+## Technical skills
 
 > Mention the technologies you are using in your project. Divide the expectations into preferred technologies, good-to-have technologies, and technologies that are not required but not necessary right now. It will allow the possible contributors to know what they can expect from your project and bank on your mentorship to achieve the rest!
 
 ## Resources
 
-> Add any resources that you would like to share with the community and the potential contributors. Link to the official repository, the project documentation, or any specific technical documentation that you have., which the contributors would fine useful while planning their project.
+> Add any resources that you would like to share with the community and the potential contributors. Link to the official repository, the project documentation, GitHub issues, or any specific technical documentation that you have., which the contributors would fine useful while planning their project.
 
 ## First steps
 
