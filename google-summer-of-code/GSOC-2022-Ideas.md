@@ -16,7 +16,7 @@ Prospective developers should have a look at the [Google Summer of Code website]
 
 ### Abstract
 
-[FLINT-UI](https://github.com/moja-global/flint-ui) provides an intuitive way for new users to explore some preconfigured FLINT modules, including the [Generic Budget Carbon Model (GCBM)](https://community.moja.global/docs/GCBM/GCBM). The FLINT-UI client is written as a web application and can be used in a local or remote environment.
+[FLINT-UI](https://github.com/moja-global/flint-ui) provides an intuitive way for new users to explore some preconfigured FLINT modules, including the [Generic Carbon Budget Model (GCBM)](https://community.moja.global/docs/GCBM/GCBM). The FLINT-UI client is written as a web application and can be used in a local or remote environment.
 
 The GCBM is a spatially-explicit forest ecosystem carbon accounting tool. The key advantage of GCBM is the level of detail specified in the IPCC Tier 3 scientific model and FLINT’s ability to run this model over large spatial scales. The FLINT is used to run the GCBM and generate detailed maps of carbon changes and emission associated with land use change.
 
@@ -33,7 +33,7 @@ The project involves the development of a GCBM Simulation Editor for FLINT-UI. W
 
 ### Project goals
 
-In 2021 we began several projects to increase the accessibility of the Full Lands Integration Tool (FLINT) by providing including the FLINT-UI project. FLINT-UI is a service or tool that is part of the moja global ecosystem built around FLINT.
+In 2021 we began several projects to increase the accessibility of the Full Lands Integration Tool (FLINT) by providing the FLINT-UI project. FLINT-UI is a service or tool that is part of the moja global ecosystem built around FLINT.
 
 Our UI experiment provides a proof of concept and a solid foundation, but interested candidates must be able to reflect on the macro-architecture of the project and take a leadership role in establishing the direction of the project. GCBM configuration is an intimidating task and there is limited prior art to draw from.
 
@@ -42,7 +42,7 @@ A core goal of the FLINT-UI is to make a complex model more accessible. The GCBM
 This project entails:
 
 - Understanding GCBM standalone configuration and workflow runs and mapping a user story for interface.
-- Developing a simulation editor on FLINTui while adding support for complex workflow runs on FLINT.Cloud.
+- Developing a simulation editor on FLINT-UI while adding support for complex workflow runs on FLINT.Cloud.
 - Adding user-stories for scientists and researchers to effectively use the feature along with end-to-end testing for FLINT-UI.
 
 ### Technical skills
