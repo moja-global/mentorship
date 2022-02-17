@@ -37,7 +37,7 @@ Our UI experiment provides a proof of concept and a solid foundation, but intere
 
 A core goal of the FLINT-UI is to make a complex model more accessible. The GCBM can be intimidating and some familiarity with earth system models or computational ecology is encouraged. We can provide a template project (the GCBM Demo Run) to start with, but a great FLINT-UI contributor would understand what these templates represent and develop intuitive ways to modify the simulation.
 
-The project would entail:
+This project entails:
 
 - Understanding GCBM standalone configuration and workflow runs and mapping a user story for interface.
 - Developing a simulation editor on FLINTui while adding support for complex workflow runs on FLINT.Cloud.
