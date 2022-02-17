@@ -86,7 +86,7 @@ moja global also make available open-source land sector datasets for use as inpu
 
 DVC indexes the input and outputs of model code and automatically updates the model to the latest version when data inputs change. CML is an open-source library that complements this process by integrating DVC into continuous integration pipelines such as Github Actions.
 
-The project would entail:
+This project entails:
 
 - Integrating reproducible analysis using Github Actions with Data version control (DVC) and Continuous Machine Learning (CML).
 - Implementing support for saving the output of the configuration phase to reuse for subsequent builds.
@@ -130,7 +130,7 @@ The project will involve improving the FLINT.Reporting and ready for our users t
 
 FLINT.Reporting was built to facilitate the processing of Flux database UNFCCC National Inventory as part of National Communications and Biennial Update Reporting. The reporting structure was designed & implemented under the 2006 IPCC Guidelines as a requirement of the enhanced transparency framework. In 2021, the FLINT.Reporting tool was re-designed and implemented with the support for the generation of UNFCCC CRF tables. Future versions are envisioned to support REDD+ reporting and other reporting requirements.
 
-The project would entail:
+This project entails:
 
 - Developing the administrative unit of the FLINT.Reporting to be as generic as possible. Currently it is based on the Kenyan Administrative Unit Structure since the reference was Kenyan-based.
 - Improve FLINT.Reporting to share the same PostgreSQL database with the FLINT to avoid re-importation issues or redesign it to have its own PostgreSQL database to allow successful importation of dumped data.
@@ -174,7 +174,7 @@ In 2021 we began several projects to increase the accessibility of the Full Land
 
 An interesting outcome of the project was the development of multiple reusable components that can be used by other UI-specific projects within moja global. We are expecting contributors to build on that experience and develop a full-fledged UI library for moja global that will help represent the branding of moja global in the wider open-source community.
 
-The project would entail:
+This project entails:
 
 - Study existing User-interface (UI) projects at moja global and sketch out components to be designed and developed.
 - Move/update all React and Vue pages to the design system while making sure they meet the standards.
