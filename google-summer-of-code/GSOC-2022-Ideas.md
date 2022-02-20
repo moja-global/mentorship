@@ -160,14 +160,15 @@ Moja global community currently maintains four User-interface (UI) projects, all
 Moja global User-interface (UI) library aims to bring forward an intuitive, consistent, and easy-to-use interface that can help our developers within the User-Interface working group and users to quickly accomplish their tasks. The UI library would aim to considerably improve our design & development workflow and meet the acceptable web accessibility requirements for our potential users. A UI library would help us mitigate popular UI-development issues like inconsistent user-experience, performance issues, accessibility requirements and more. 
 
 The aim of this project is to build a unified and consistent design language to help our contributors and users. To achieve this, a centralized collection of components would be developed which will encompass the color branding of moja global, typography, spacing, buttons, modals and forms. The big picture is that the UI library will allow all the upcoming moja global projects, with a client-facing focus, to have a consistent design language that will help us to quickly and easily build their user-interface.
-| Category              | Rating                                                                                                 |
-| --------------------- | ------------------------------------------------------------------------------------------------------ |
-| Intensity             | Medium                                                                                                 |
-| Priority              | Low                                                                                                    |
-| Skills                | JavaScript/TypeScript, UI/UX, Design Systems                                                           |
-| Project Size          | Medium                                                                                                 |
-| Preferred Contributor | Student/Professional                                                                                   |
-| Mentors               | [Gopinath Balakrishnan](https://www.linkedin.com/in/bgopi), [@gabalafou](https://github.com/gabalafou) |
+
+| Category              | Rating                                                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Intensity             | Medium                                                                                                                                                 |
+| Priority              | Low                                                                                                                                                    |
+| Skills                | JavaScript/TypeScript, UI/UX, Design Systems                                                                                                           |
+| Project Size          | Medium                                                                                                                                                 |
+| Preferred Contributor | Student/Professional                                                                                                                                   |
+| Mentors               | [Gopinath Balakrishnan](https://www.linkedin.com/in/bgopi), [@gabalafou](https://github.com/gabalafou), [@HarshCasper](https://github.com/harshcasper) |
 
 ### Project goals
 
@@ -208,14 +209,14 @@ Currently building FLINT locally is a challenging and a time-consuming process. 
 
 The project would also entail the development of a standard release process for the FLINT. It would involve communicating with stakeholders across the moja global community, technical skills to triage FLINT and other moja global projects and work with the maintainers to bring them into line with the DevOps working group best practices. The release process would facilitate timely release of various projects and the community to be able to use the packages.
 
-| Category              | Rating                                               |
-| --------------------- | ---------------------------------------------------- |
-| Intensity             | Medium                                               |
-| Priority              | High                                                 |
-| Skills                | C++, BASH, Batch, GitHub Actions, CMake              |
-| Project Size          | Large                                                |
-| Preferred Contributor | Student/Professional                                 |
-| Mentors               | [@HarshCasper](https://github.com/harshcasper) (TBD) |
+| Category              | Rating                                         |
+| --------------------- | ---------------------------------------------- |
+| Intensity             | Medium                                         |
+| Priority              | High                                           |
+| Skills                | C++, BASH, Batch, GitHub Actions, CMake        |
+| Project Size          | Large                                          |
+| Preferred Contributor | Student/Professional                           |
+| Mentors               | [@HarshCasper](https://github.com/harshcasper) |
 
 ### Project goals
 
