@@ -247,3 +247,52 @@ Moja global teams also have development specific draft guides for understanding 
 ### First steps
 
 Study the FLINT and follow our [FLINT Developer tutorial](https://www.youtube.com/playlist?list=PL_WECUlMWiUkyx5ohT2jglPSa58XmOhgY) and [FLINT Development setup docs](https://docs.moja.global/en/latest/DevelopmentSetup/index.html) to get started. Formulate a release process plan and share your findings with the DevOps and working group on the `#devops` channel.
+
+## Idea: Developing a FLINT Forest Monitoring tool using Land Sector datasets
+
+### Abstract
+
+FLINT-based toolings coupled with forest management practises can support forest owners, stakeholders and policymakers to support biodiversity with the help of remote sensing data to mitigate climate change and forest damage. Using various forest management indicators and thresholds on climate and biodiversity aspects, we can addressed the need of providing a multi-dimensional insight into the ecological conditions of the forest. 
+
+The project aims to develop a FLINT Forest Monitoring tool to provide a frequent and cost-effective reporting of data through our Land Sector datasets and FLINT.Cloud, that provides a template for cloud-based deployment of FLINT. The tool will help stakeholders to better understand the climate change impact and can help contribute to building forest diversity while providing data-backed analysis to adopt new climate change policies.
+
+The project would involve, finding over 100 small squares of forest from around the world through our Land Sector Datasets. We will then be investigating the forest type and the respective growth rates from the literature. Finally a FLINT Simulation would be launched for each squares, before storing each of the results over a NoSQL Database (MongoDB). The project will capitalize on our FLINT.Cloud project to model the emissions for the particular forest part before preparing, formatting and calibrating the modules to develop a credible result by applying rules-based projections.
+
+| Category              | Rating                                                                                     |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| Difficulty            | Medium                                                                                     |
+| Priority              | High                                                                                       |
+| Skills                | Python, MongoDB, CI/CD, Data Science                                                       |
+| Project Size          | Medium (175 hours)                                                                         |
+| Preferred Contributor | Student/Professional                                                                       |
+| Mentors               | [@aornugent](https://github.com/aornugent), [@HarshCasper](https://github.com/harshcasper) |
+
+### Project Goals
+
+In 2021 we began several projects to increase the accessibility of the Full Lands Integration Tool (FLINT) by building the FLINT.Cloud and FLINT-UI respectively. FLINT.Cloud provides a cloud-based deployment for FLINT and GCBM using a Flask-based API. FLINT-UI on the other hand extends a Web UI client from the FLINT.Cloud thus allowing users to run simulations on web itself.
+
+The outcome of this project would be development of a new tool in this tooling stack which would allow the users to run simulations, preferrably combing the simulation editor (FLINT-UI), FLINT runtime (FLINT.Cloud) and configuration creator (FLINT.Cloud) where we can push the summarized data back to a remote MongoDB Atlas database before re-creating a simulation. This project would also help us gauge the cutting edge integration of our toolsets which can further help us quantify greenhouse gas emissions, spatial datasets and ecosystem services.
+
+![FLINT Monitoring Tool architecture](images/flint-monitoring-tool-architecture.png)
+
+This project entails:
+
+- Study the Land Sector datasets and sketch out a data workflow to intelligently identify small squares of forest from around the world.
+-  Development of a Python-based tool to interact with FLINT-UI and FLINT.Cloud to run simulations using the existing configurations on the identified squares.
+- Integrate a CI/CD-based workflow to push generated results to a remote MongoDB Atlas instance while applying rules-based projections.
+- Document the results on public moja global documentation and offer a template to users who are looking to try the above.
+
+### Technical Skills
+
+During this project, the developer will be working with the Technical Steering Committee (TSC) on developing a new tool to coordinate with FLINT-UI and FLINT.Cloud while getting hands-on experience with Python, MongoDB, CI/CD while implementing data science and analysis methodologies. Experience with Python and MongoDB is preferred. Experience with Docker and CI/CD would be useful. Understanding of FLINT and the ecosystem will be helpful but not necessary.
+
+### Resources
+
+- Land Sector Datasets: https://github.com/moja-global/Land_Sector_Datasets
+- FLINT.Cloud: https://github.com/moja-global/FLINT.Cloud
+- FLINT-UI: https://github.com/moja-global/FLINT-UI
+- MongoDB Python connection: https://www.mongodb.com/languages/python
+
+### First steps
+
+Study the FLINT.Cloud and FLINT-UI projects. Move over to Land Sector Datasets and analyze the datasets and the existing analysis. Document a workflow to extract forest squares and share your findings on the `#cloud` channel.
