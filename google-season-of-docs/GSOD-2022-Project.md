@@ -68,7 +68,7 @@ We will have multiple milestones to ensure that the technical writer has been fo
 
 We are accepting applications for `Technical Writer #2`. Interested applicants can reach out to us on mentorship@moja.global or join our #documentation channel on Slack and propose their interest to participate. `Technical Writer #2` will work with Dr. Andrew O’Reilly-Nugent (TSC Director) and Harsh Mishra (TSC Community Manager and GSoD ‘21 intern) to write more approachable FLINT development and calibration documentation. It will help our users and contributors better understand climate science, carbon models, and how FLINT fits amongst them. During GSoD, `Technical Writer #2` will work with the documentation and the science working group under the Technical Steering Committee and develop a handbook for our new FLINT users to get started with FLINT and develop their implementations.
 
-The Technical Writer #2 will be expected to:
+The Technical Writer `#2` will be expected to:
 
 - Update the existing FLINT technical documentation:
   - Collaborate with the TSC and FLINT Modules Working Group and understand the scope of FLINT and GCBM.

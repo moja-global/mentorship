@@ -16,7 +16,7 @@ The primary goals of this project are to:
 
 In order to facilitate a higher volume of documentation and communications, we also propose to develop a system for publishing case studies in addition to our technical documentation. We would like to add markdown documents to our contributors website for thematic discussions that appeal to a wide range of audiences.
 
-### Technical writer #1 - Harsh Bardhan Mishra
+### Technical writer `#1` - Harsh Bardhan Mishra
 
 Harsh is a Computer Science and Engineering student from Chennai, India. Harsh will work with mentors Sabita Rao (technical writer by profession and GSoD '20 participant), Sagar Utekar (MTS2 at VMWare, GSoD and GSoC mentor) and the moja global Technical Steering Committee (TSC) to canvas existing FLINT users, including the Mullion Group (Australia) and NRCan (Canada). Harsh will develop excellent technical communication skills and experience obtaining expert advice to create an intuitive and approachable content. During GSoD he will work closely with the TSC to develop a content strategy for case studies and news that can be incorporated into the contributors website.
 
@@ -38,7 +38,7 @@ Harsh will be expected to:
 	- Publish two (2) case studies on the contributors website.
 
 
-### Technical writer #2 - Sarthak Kundra
+### Technical writer `#2` - Sarthak Kundra
 
 Sarthak Kundra will work with mentors Sneha Mishra (contributors website developer, ReadTheDocs maintainer, and GSoD 2020 graduate!) and Dr. Andrew O’Reilly-Nugent (TSC Director) to organise our technical and developer documentation. This will involve collaboration with the Documentation Working Group, moja global brand management partners at Climate Advisors, and the maintainers of moja global projects. Sarthak has keen eye for detail and great instincts for designing a pain-free documentation experience. Sarthak's web development experience will enabled Sarthak to take the lead on the provisioning of a static site generator, with support from other moja global developers.
 
@@ -61,7 +61,7 @@ Sarthak Kundra will work with mentors Sneha Mishra (contributors website develop
 
 -   Mohammad Warid, to help develop a user-experience (UX) plan and provide support with web development contributions.
 -   Shubham Karande, to assist with systems documentation, mapping the existing moja global repositories and unearthing the technical aspects of FLINT.
--   Mohit Kumar, to work with Technical Writer #1 on developing case studies with the FLINT and providing inputs for the end user documentation.
+-   Mohit Kumar, to work with Technical Writer `#1` on developing case studies with the FLINT and providing inputs for the end user documentation.
 
 ### Project budgets:
 
