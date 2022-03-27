@@ -247,3 +247,53 @@ Moja global teams also have development specific draft guides for understanding 
 ### First steps
 
 Study the FLINT and follow our [FLINT Developer tutorial](https://www.youtube.com/playlist?list=PL_WECUlMWiUkyx5ohT2jglPSa58XmOhgY) and [FLINT Development setup docs](https://docs.moja.global/en/latest/DevelopmentSetup/index.html) to get started. Formulate a release process plan and share your findings with the DevOps and working group on the `#devops` channel.
+
+## Idea: Developing a FLINT Forest Monitoring tool using Land Sector datasets
+
+### Abstract
+
+Interested in how forests help us store carbon? We are embarking on a pilot project to monitor the effect of forest management practices around the world. We hope this work can support forest owners, stakeholders and policymakers. Using various forest management indicators and a representative sample of ecosystem and climatic conditions, we aim to develop an open source workflow for the assessment of ecological conditions in forests around the world.
+
+Our project involves finding 100+ small squares of forest from around the world and cross referencing these locations with freely available land sector datasets to develop a realistic growth simulation. Mentees will work with the moja global DevOps Working Group to develop and document a proof-of-concept for a semi-automated, FLINT-based workflow. Although the goal of this project is to run a unique FLINT simulation of forest dynamics for each location, the parameterisation and analysis of these simulations will be developed by a cohort of community members of which you will be a part. You'll be responsible for helping set up a scalable and repeatable system for running these simulations, storing and sharing each of the results in a NoSQL Database (MongoDB). The DevOps Working Group have templates for local and cloud-based deployment of FLINT and it's associated models that you can use. 
+
+| Category              | Rating                                                                                     |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| Difficulty            | Medium                                                                                     |
+| Priority              | High                                                                                       |
+| Skills                | Python, MongoDB, CI/CD, Data Science                                                       |
+| Project Size          | Medium (175 hours)                                                                         |
+| Preferred Contributor | Student/Professional                                                                       |
+| Mentors               | [@aornugent](https://github.com/aornugent), [@HarshCasper](https://github.com/harshcasper) |
+
+### Project Goals
+
+FLINT.cloud provides a number of templates for container-based deployment of FLINT with a a Flask-based API. We have successfully implemented the Generic Carbon Budget Model that describes forest dynamics of large landscapes. We wish to demontsrate this capability by running many, smaller examples across a wide range of ecosystem types and climate conditions. 
+
+Generating the model configuration still remains a manual (and often tedious job). GSoC mentees will be required to develop semi-automated configuration generation and input data QA as part of this project. Once a simple workflow has been established, the success of our project will be determined by our ability to easily create, track and compare the results of many small simulations at once. A stretch goal is to document a meta-learning protocol for optimising the configuration for each simulation, in order to improve the consistency and accuracy of the simulation ensemble.
+
+![FLINT Monitoring Tool architecture](images/flint-monitoring-tool-architecture.png)
+
+This project entails:
+
+- Study the Land Sector datasets and sketch out a data workflow to intelligently identify small squares of forest from around the world.
+- Development of a Python-based tool produce GCBM configurations for the identified squares and dispatch simulations using the FLINT.Cloud templates
+- Integrate a CI/CD-based workflow to push generated results to a remote MongoDB Atlas instance while applying rules-based projections.
+- Document the results on public moja global documentation and offer a template to users who are looking to try the above.
+
+### Technical Skills
+
+During this project, the you will be working with the moja global DevOps Working Group on developing and deploying a pre-processing new tool. This will require getting hands-on experience with Python, MongoDB, CI/CD while implementing data science and analysis methodologies. Experience with Python and MongoDB is preferred. Experience with Docker and CI/CD would be useful. Understanding of FLINT, carbon modelling and the moja global ecosystem will be helpful but not necessary.
+
+### Resources
+
+- Land Sector Datasets: https://github.com/moja-global/Land_Sector_Datasets
+- FLINT.Cloud: https://github.com/moja-global/FLINT.Cloud
+- MongoDB Python connection: https://www.mongodb.com/languages/python
+
+### First steps
+
+The best way to get started is to join our Slack community: https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw
+
+Please introduce yourself in #outreachy - we'd love to know where you come from and what you're interested in. Then proceed to #documentation and the FLINT wiki. If you'd like to install FLINT please review the instructions at docs.moja.global and as for help in #installation support. We have some demonstration guides in the FLINTcloud and GCBM.Belize that you can follow to better understand the types of models we plan on using. 
+
+Once comfortable, please study the existing FLINTcloud templates and the Land Sector Datasets repository. Find an appropriate forest dataset and propose a location of interest (pick a forest you like!). Find another datasets of interest and document a workflow to extract and summarise forest squares in your location. Then share your findings on the `#cloud` channel.
