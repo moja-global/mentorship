@@ -297,3 +297,39 @@ The best way to get started is to join our Slack community: https://join.slack.c
 Please introduce yourself in #outreachy - we'd love to know where you come from and what you're interested in. Then proceed to #documentation and the FLINT wiki. If you'd like to install FLINT please review the instructions at docs.moja.global and as for help in #installation support. We have some demonstration guides in the FLINTcloud and GCBM.Belize that you can follow to better understand the types of models we plan on using. 
 
 Once comfortable, please study the existing FLINTcloud templates and the Land Sector Datasets repository. Find an appropriate forest dataset and propose a location of interest (pick a forest you like!). Find another datasets of interest and document a workflow to extract and summarise forest squares in your location. Then share your findings on the `#cloud` channel.
+
+
+# Idea: UI pipeline for a deforestation predictor
+
+## Abstract
+Deforestation is one of the primary sources of greenhouse gas emissions from the land sector. Efforts to reduce deforestation are currently hampered because of a lack of accurate deforestation predictions. This project is focussed on developing a UI pipeline around our ML model. The model predicts the likelihood of a particular area in the landscape being deforested over the projection period. The predicted deforestation for each area can be aggregated to obtain expected deforestation for a project area, administrative region, or a whole country, which will be more informative for the policy-building agencies.
+
+The model pipeline involves predicting deforestation using Landsat 7 satellite images from the Google Earth Engine (GEE) and deforestation labels extracted from relevant datasets (such as the [matt hansen dataset](<https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.7.html>)).
+
+The goal of the of this project is to *make the model available to a broader audience.*One of our goals since the inception of the project has been to facilitate decision makers to make informed decisions using our model. Open sourcing the code and creating convenient interfaces to interact with the model are steps toward this goal.
+
+| Category              | Rating                                   |
+| --------------------- | ---------------------------------------- |
+| Intensity             | Moderate                                 |
+| Priority              | Medium                                   |
+| Skills                | Python, JavaScript, UI/UX, Design Systems|
+| Project Size          | Large(350 hours)                         |
+| Preferred Contributor | Student                                  |
+| Mentors               | @govarun                                 |
+
+## Project goals
+
+This project entails:
+
+- Creating a web based application to interact with the model. This would involve taking as input geo-spatial coordinates from the user and connecting with the remote model server to process the query. 
+- Returning the user a neat and intuitive interface consisting of relevant model outputs, that is the deforestation labels for the queried region, deforestation plots, explainiablity information.
+- Managing the deployment of the model and the server-side development at scale with an eye towards handling large scale deployments and accomodating faster inferences.
+- Development of a scalable user-interface which introduces new input and output parameters with minimal effort/change in the client-side code-base for ease of maintenance.
+
+## Technical skills
+
+Experience in designing and implementing Web Applications while managing end-to-end client and server-side development is a must! Understanding of a popular Python web framework (FastAPI, Flask, Django) is needed. Choice of the UI library/tools is flexible and will be based on the consensus of the mentor and the mentee. An understanding of how a complete UI stack is setup would help in the project being finished smoothly. Knowledge of the formats in which large geographical images are stored/rendered would be preferred but it's not necessary.
+
+## First steps
+
+Get started by reading and understanding the problem statement and our approach on our [publically available case study](https://community.moja.global/case-studies/powering-deforestation-prediction-using-artificial-intelligence). Try to understand the case study, the use-cases and how an application can be built around it. Share your thoughts on the `#machine-learning` channel and start working on a rough architecture and system design for the project.
