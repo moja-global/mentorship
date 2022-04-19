@@ -90,11 +90,10 @@ We will have multiple milestones to ensure that the technical writer has been fo
 
 | Milestones     | Achievement                                                          | Tentative Date    |
 | -------------- | -------------------------------------------------------------------- | ----------------- |
-| `Milestone #1` | Publish the documentation for Understanding FLINT over ReadTheDocs.  | May 16, 2022      |
+| `Milestone #1` | Publish the documentation for Understanding FLINT at docs.moja.global.  | May 16, 2022      |
 | `Milestone #2` | Publish a case study on carbon models and climate change mitigation. | July 15, 2022     |
-| `Milestone #3` | Document FLINT training examples and modules over Community Website. | August 19, 2022   |
-| `Milestone #4` | Publish technical documentation of FLINT internals and functioning.  | October 7, 2022   |
-| `Milestone #5` | Finalize the FLINT Analysis handbook for analysis and calibration.   | November 15, 2022 |
+| `Milestone #3` | Document FLINT training examples and modules on the community.moja.global. | August 19, 2022   |
+| `Milestone #4` | Finalize the FLINT Analysis handbook for analysis and calibration.   | November 15, 2022 |
 
 ## Performance Metrics
 
