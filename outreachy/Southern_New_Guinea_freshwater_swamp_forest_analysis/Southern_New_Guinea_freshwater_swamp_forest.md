@@ -1,6 +1,6 @@
 ### Analysis on Southern New Guinea freshwater swamp forest
 
-After I made global analysis on forests which i did  [here](https://nbviewer.org/github/Hafsah2020/Outreachy_Hafsah_Anibaba_2022/blob/main/global_forest_analysis.ipynb) and shared results of my analysis [here](Global_anlysis.md). I picked interest in Southern New Guinea freshwater swamp forest and analysed it [here](https://nbviewer.org/github/Hafsah2020/Outreachy_Hafsah_Anibaba_2022/blob/main/favourite_forest_analysis.ipynb)
+After I made global analysis on forests which i did  [here](https://nbviewer.org/github/Hafsah2020/Outreachy_Hafsah_Anibaba_2022/blob/main/Global_analysis_of_all_forests_in_the_world.ipynb) and shared results of my analysis [here](Global_analysis_of_all_forests_in_the_world.md). I picked interest in Southern New Guinea freshwater swamp forest and analysed it [here](https://nbviewer.org/github/Hafsah2020/Outreachy_Hafsah_Anibaba_2022/blob/main/Southern_New_Guinea_freshwater_swamp_forest.ipynb)
 
 ### Table of contents
 

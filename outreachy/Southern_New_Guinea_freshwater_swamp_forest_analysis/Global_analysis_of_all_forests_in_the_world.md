@@ -1,6 +1,6 @@
 ## Global analysis of forests 
 
-The task is to pick a favourite forest, make analysis and report my findings which I have done [here](https://nbviewer.org/github/Hafsah2020/Outreachy_Hafsah_Anibaba_2022/blob/main/global_forest_analysis.ipynb#AgroEcological-zones-of-forest)
+The task is to pick a favourite forest, make analysis and report my findings which I have done [here](https://nbviewer.org/github/Hafsah2020/Outreachy_Hafsah_Anibaba_2022/blob/main/Global_analysis_of_all_forests_in_the_world.ipynb#AgroEcological-zones-of-forest)
 
 
 
