@@ -1,6 +1,6 @@
 ## Global analysis of forests 
 
-The task is to pick a favourite forest, make analysis and report my findings which I have done [here](https://nbviewer.org/github/Hafsah2020/Outreachy_Hafsah_Anibaba_2022/blob/main/Global_analysis_of_all_forests_in_the_world.ipynb#AgroEcological-zones-of-forest)
+The task is to pick a favourite forest, make analysis and report my findings which I have done [here](https://nbviewer.org/github/Hafsah2020/mentorship-outreachy/blob/moja-global-main/outreachy/Southern_New_Guinea_freshwater_swamp_forest_analysis/Global_analysis_of_all_forests_in_the_world.ipynb)
 
 
 
@@ -50,22 +50,6 @@ I plotted the forest against water scarcity zones here:
 ![Water scarcity zones](Images/fav_forest_nut_water.png)
 
 The forests are located mostly in the economic water scarcity zones and alos in the physical water scarcity zones
-
-
-###### Soil nutrients
-
-I plotted the forest against soil nutrients here:
-![Soil nutrients zones](Images/soil_nutrients.png)
-
-The forests are located ????
-
-
-###### Dominant soil cover
-
-I plotted the forest aginst tyheir agroecological zones here:
-![Water scarcity zones](Images/dominant_cover.png)
-
-The forests are located ???
 
 
 ### Climate

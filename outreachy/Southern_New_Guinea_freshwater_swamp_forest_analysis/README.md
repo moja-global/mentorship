@@ -1,14 +1,14 @@
-# My submission on Moja global recommended  tasks on project `Reseaech data sources for carbon sequestration in forests` for Outreachy 2022 contribution phase.
+# My submission on Moja global recommended  tasks on project `Research data sources for carbon sequestration in forests` for Outreachy 2022 contribution phase.
 
 
 Please view the tasks and links to my submission below:-
  <ol>
     <li>Task 0- Git & Github
-        Description on my interest inthe selected project. The link to my submission is [here]
+     Description on my interest in the selected project. The link to my submission is [here](https://github.com/Hafsah2020/Outreachy_Hafsah_Anibaba_2022/blob/main/README.md)
     </li>
     <li>
         Task 1- Make analysis on favourite forest
-        For this analysis after viewing all forests around the world [here](), I chose Southern New Guinea freshwater swamp forest and made analysis [here] to see its characteristics
+        For this analysis after viewing all forests around the world and sharing the result [here](https://github.com/Hafsah2020/mentorship-outreachy/blob/moja-global-main/outreachy/Southern_New_Guinea_freshwater_swamp_forest_analysis/Global_analysis_of_all_forests_in_the_world.md), I chose Southern New Guinea freshwater swamp forest made analysis on the forest to see its characteristics and shared my result [here](https://github.com/Hafsah2020/mentorship-outreachy/blob/moja-global-main/outreachy/Southern_New_Guinea_freshwater_swamp_forest_analysis/Southern_New_Guinea_freshwater_swamp_forest.md) 
     </li>
 
 </ol>
