@@ -1,6 +1,6 @@
 ### Analysis on Southern New Guinea freshwater swamp forest
 
-After I made global analysis on forests which i did  [here](https://nbviewer.org/github/Hafsah2020/mentorship-outreachy/blob/moja-global-main/outreachy/Southern_New_Guinea_freshwater_swamp_forest_analysis/Global_analysis_of_all_forests_in_the_world.ipynb) and shared results of my analysis [here](Global_analysis_of_all_forests_in_the_world.md). I picked interest in Southern New Guinea freshwater swamp forest and analysed it [here](https://nbviewer.org/github/Hafsah2020/mentorship-outreachy/blob/moja-global main/outreachy/Southern_New_Guinea_freshwater_swamp_forest_analysisSouthern_New_Guinea_freshwater_swamp_forest.ipynb)
+After I made global analysis on forests which i did  [here](https://nbviewer.org/github/Hafsah2020/mentorship-outreachy/blob/moja-global-main/outreachy/Southern_New_Guinea_freshwater_swamp_forest_analysis/Global_analysis_of_all_forests_in_the_world.ipynb) and shared results of my analysis [here](Global_analysis_of_all_forests_in_the_world.md). I picked interest in Southern New Guinea freshwater swamp forest and analysed it [here](https://nbviewer.org/github/Hafsah2020/mentorship-outreachy/blob/moja-global-main/outreachy/Southern_New_Guinea_freshwater_swamp_forest_analysis/Southern_New_Guinea_freshwater_swamp_forest.ipynb)
 
 ### Table of contents
 
@@ -15,21 +15,21 @@ ___
 ___
 
 
-Southern New Guinea freshwater swamp forest is of the biome `Tropical and subtropical moist broadleaf forests`.
+Southern New Guinea freshwater swamp forest is of the biome type `Tropical and subtropical moist broadleaf forests`.
 
 ### Administrative boundaries
 
 Southern New Guinea freshwater swamp forest is located in West Africa
 
 ![Location in the world](Images/fav_forest_world.png)
-<b> Location of the forest on the world map</b>
+<center><b> Location of the forest on the world map</b></center>
 
 ![Location in Africa](Images/fav_forest_africa.png)
-<b> Location of the forest in Africa </b>
+</center><b> Location of the forest in Africa </b></center>
 
 The forest run through the following countries
 ![Countries](Images/fav_forest_countries.png)
-<b> countries the forest covers </b>
+<center><b> countries the forest covers </b></center>
 
 
 ### Bioclimatic zones
@@ -44,7 +44,7 @@ There are moist soils towards the south eastern part of the forest, Subhumid soi
 
 ###### Carbon density
 ![climate zones](Images/fav_forest_carbon_density.png)
-Most parts of the forestt has low carbon density except for two part in the central West and centarl East that has high carbon density
+Most parts of the forestt has low carbon density except for two part in the central West and central East that has high carbon density
 
 ###### Dominant land cover and rainfed terrain suitabillity
 ![climate zones](Images/fav_forest_dom_rainfed.png)
@@ -61,7 +61,7 @@ There is no variability in water scarcity of the forest which belongs to the eco
 The South-Eastern part of the forest has the most protected areas and mmost protected areas are for agriculture
 
 ###### Rooting conditions
-![climate zones](Images/fav_forest_rest_prot.png)
+![climate zones](Images/fav_forest_root_prot.png)
 There is less variability in rooting conditions of the forest
 
 ###### Biomes
@@ -82,13 +82,13 @@ The climate towards the South of the forest is tropical moist and the the climat
 
 The five scenarios are as follows:
 
-A1F1 (Global/Economic) - describes a future world of rapid economic growth, with a global population that peaks in the mid 2000's and declines afterwards it follows a "business as usual" fossil fuel intensive future.
+A1F1 (Global/Economic <i>fossil fuel intensive</i>) - describes a future world of rapid economic growth, with a global population that peaks in the mid 2000's and declines afterwards it follows a "business as usual" fossil fuel intensive future.
 
-A2 (Local/Economic) - follows a more conservative economic world, where economic growth is more limited to smaller regions of the world. Technological change is slower in this storyline, while high fertility rates result in a booming population.
+A2 (Local/Economic <i>a very heterogenic world with a focus on family values and local traditions</i>) - follows a more conservative economic world, where economic growth is more limited to smaller regions of the world. Technological change is slower in this storyline, while high fertility rates result in a booming population.
 
-B1 (Global/Environmental) - assumes the same population growth as the A1 storyline. It differs in that it has less of a material intense society, and focuses more on clean and efficient technologies. It takes emphasis on global solutions to economic, social and environmental sustainability, but with no additional climate incentives.
+B1 (Global/Environmental <i>(a world without materialism and launch of clean technologies</i>) - assumes the same population growth as the A1 storyline. It differs in that it has less of a material intense society, and focuses more on clean and efficient technologies. It takes emphasis on global solutions to economic, social and environmental sustainability, but with no additional climate incentives.
 
-B2 (Local/Environmental) - focuses on a society that looks for local solutions to economic, social, and environmental sustainability. It is a world with continuously increasing global population in accordance with the UN prediction, with intermediate levels of economic development, and less rapid technological change compared to the B1 and A1 storylines. It focuses on local and regional solutions to environmental protection and social equity.[1](https://energyeducation.ca/encyclopedia/Emission_scenario)
+B2 (Local/Environmental) <i>a world with a focus on local solutions for economic and ecological sustainability</i>- focuses on a society that looks for local solutions to economic, social, and environmental sustainability. It is a world with continuously increasing global population in accordance with the UN prediction, with intermediate levels of economic development, and less rapid technological change compared to the B1 and A1 storylines. It focuses on local and regional solutions to environmental protection and social equity.[1](https://energyeducation.ca/encyclopedia/Emission_scenario)
 
 
 ![climate shifts (1901 to 2000)](Images/fav_forest_shifts_no_scenario.png)
