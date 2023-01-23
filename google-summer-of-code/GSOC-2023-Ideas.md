@@ -63,3 +63,52 @@ The best way to get started is to join our Slack community: https://join.slack.c
 Please introduce yourself in `#cloud` - we'd love to know where you come from and what you're interested in. Then proceed to `#documentation` and the [FLINT Handbook](https://moja-global.github.io/Handbook/). If you'd like to install FLINT please review the instructions at [docs.moja.global](https://docs.moja.global) and as for help in `#installation` support. We have some demonstration guides in the FLINTcloud and GCBM.Belize that you can follow to better understand the types of models we plan on using. 
 
 Once comfortable, please study the existing FLINTcloud templates and the Land Sector Datasets repository. Find an appropriate forest dataset and propose a location of interest (pick a forest you like!). Find another datasets of interest and document a workflow to extract and summarise forest squares in your location. Then share your findings on the `#cloud` channel.
+
+## Idea: Packaging FLINT for cross-platform usage 
+
+### Abstract
+
+FLINT is an open-source, modular tool that estimates greenhouse gas (GHG) emissions from land by modeling the flux of GHG on millions (or even billions) of land parcels. Moja global community currently relies on FLINT as an integrating platform for estimating land-based greenhouse gas emissions and removals. FLINT is also used as the base framework for various projects under the Moja global umbrella, including FLINT.Cloud, GCBM, and other projects. The primary role of the FLINT is to coordinate the interaction of data (e.g., spatial data, non-spatial data, carbon pools, variables, fluxes) and modules. As a full-mass balance framework, FLINT meets all IPCC requirements and allows the progressive development of MRV-related systems, data, and capacities.
+
+Currently, building FLINT locally is a challenging and time-consuming process. The development build of FLINT has been made possible only on Windows and Ubuntu, while Docker images are available for other Linux-based distributions and macOS. The project idea is to package FLINT and make the packages available across major operating systems and architectures. These packages would be made available on the FLINT repository (as part of the release) and/or on the moja global community website for users to install and get started with. It would allow the moja global community to demonstrate the cross-platform usage of FLINT and help simplify the workflow for contributors and general users.
+
+The project would also entail developing a standard release process for the FLINT. It would involve communicating with stakeholders across the moja global community, technical skills to triage FLINT and other moja global projects, and working with the maintainers to align with the DevOps working group best practices. The release process would facilitate the timely release of various projects and allow the community to use the packages.
+
+| Category              | Rating                                         |
+| --------------------- | ---------------------------------------------- |
+| Difficulty            | Medium                                         |
+| Priority              | High                                           |
+| Skills                | C++, BASH, Batch, GitHub Actions, CMake        |
+| Project Size          | Large (350 hours)                              |
+| Preferred Contributor | Student/Professional                           |
+| Mentors               | [@HarshCasper](https://github.com/harshcasper) |
+
+### Project goals
+
+This project entails the following:
+
+- Understanding FLINT, moja libraries, and the build process involved and sketching a release process for the Technical Steering Committee (TSC).
+- Implementing build scripts for various operating systems and architectures to build distributable packages for FLINT.
+- Integrating GitHub Actions to package the FLINT and creating a test strategy to facilitate before general usage. 
+- Development of a release process to facilitate the release of the packages across the moja global community.
+
+### Technical skills
+
+During this project, the developer will work with the DevOps working group under the Technical Steering Committee (TSC) on packaging FLINT and get hands-on experience working with C++, CMake build systems, writing CI/CD pipelines, and initiating a release process for moja global. Experience with C++, CMake, and GitHub Actions is preferred. Understanding FLINT and packaging mechanisms would be preferred but optional.
+
+### Resources
+
+- CMake: https://cmake.org/
+- Understanding FLINT: https://docs.moja.global/en/latest/Understanding-FLINT
+- Compiler Cache: https://ccache.dev/
+- Packaging with GitHub Actions: https://docs.github.com/en/actions/publishing-packages/
+
+Moja global teams also have development-specific draft guides for understanding the technical intricacies of building FLINT along with the base packages. The guides are available here:
+
+- [Moja base libraries](https://docs.google.com/document/d/1i6S0X0nTyxfJwn6KhGo9AahXOH1gBnTdwYdAxGchHsI/edit?usp=sharing)
+- [Moja FLINT library](https://docs.google.com/document/d/1jceIX1E7HOmzmLW6C-E6GDbMz9sxM-nIy90CbY463Lw/edit?usp=sharing)
+- [Moja FLINT implementation](https://docs.google.com/document/d/139-1Nc5AR0yhN--Jb0W_jIfzUasoItkt4dyYM3m19N4/edit?usp=sharing)
+
+### First steps
+
+Study the FLINT and follow our [FLINT Developer tutorial](https://www.youtube.com/playlist?list=PL_WECUlMWiUkyx5ohT2jglPSa58XmOhgY) and [FLINT Development setup docs](https://docs.moja.global/en/latest/DevelopmentSetup/index.html) to get started. Formulate a release process plan and share your findings with the DevOps and working group on the `#devops` channel.
