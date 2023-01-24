@@ -112,3 +112,45 @@ Moja global teams also have development-specific draft guides for understanding 
 ### First steps
 
 Study the FLINT and follow our [FLINT Developer tutorial](https://www.youtube.com/playlist?list=PL_WECUlMWiUkyx5ohT2jglPSa58XmOhgY) and [FLINT Development setup docs](https://docs.moja.global/en/latest/DevelopmentSetup/index.html) to get started. Formulate a release process plan and share your findings with the DevOps and working group on the `#devops` channel.
+
+## Idea: Improving FLINT.Reporting for general-purpose usage
+
+### Abstract
+
+Moja global community uses FLINT.Reporting to provide Business Intelligence for analyzing and transforming FLINT output databases into useful information and outputs. FLINT.Reporting Tool takes flux facts and assigns/aggregates them to a land-use category, a reporting table and a UNFCCC reporting variable. The Reporting Tool was brought together to support the generation of tables, graphs, and other reporting artifacts, from the FLINT output databases, to meet policy and other reporting requirements.
+
+The big picture is that the Reporting Tool takes flux facts and assigns/aggregates them to a land-use category, a reporting table and a UNFCCC reporting variable. We did not envision the support for these reporting requirements to happen all at once; but rather in a piece-by-piece manner, with the first version of the Reporting Tool (the current version) supporting the generation of UNFCCC CRF tables. 
+
+The project will involve improving the FLINT.Reporting and ready for our users to extract actionable business intelligence from the FLINT. This project should demonstrate the functionality of FLINT.Reporting to a broader audience by implementing new features, generalizing the reporting process, and improving the analysis for a wider audience. The project would benefit non-technical users like researchers, policymakers, and analysts to understand FLINT and the overall reporting process better.
+
+| Category              | Rating                                         |
+| --------------------- | ---------------------------------------------- |
+| Difficulty            | Hard                                           |
+| Priority              | High                                           |
+| Skills                | Spring Boot, Angular, PostgreSQL, Docker, BASH |
+| Project Size          | Large (350 hours)                              |
+| Preferred Contributor | Student/Professional                           |
+| Mentors               | [@tonnix](https://github.com/Tonnix)           |
+
+### Project goals
+
+FLINT.Reporting was built to facilitate processing the Flux database UNFCCC National Inventory as part of National Communications and Biennial Update Reporting. The reporting structure was designed & implemented under the 2006 IPCC Guidelines as a requirement of the enhanced transparency framework. In 2021, the FLINT.Reporting tool was re-designed and implemented with the support for generating UNFCCC CRF tables. Future versions are envisioned to support REDD+ reporting and other reporting requirements.
+
+This project entails the following:
+
+- Developing the administrative unit of the FLINT.Reporting to be as generic as possible. Currently, it is based on the Kenyan Administrative Unit Structure since the reference was Kenyan-based.
+- Improve FLINT.Reporting to share the same PostgreSQL database with the FLINT to avoid re-importation issues or re-design it to have its own PostgreSQL database to allow successful importation of dumped data.
+- Build an interface for onboarding data to make it easier for non-technical users to operate the system. The FLINT output data is currently loaded into the Reporting Tool's PostgreSQL database via a script which kick-starts the aggregation exercise.
+- Expose the FLINT.Reporting configuration allows future users to tweak them to their country's requirements. The Reporting Tool Report Parameters were fixed based on Kenyan policies.
+
+### Technical skills
+
+During this project, the developer will work with the Technical Steering Committee (TSC) on contributing to FLINT.Reporting while getting hands-on experience with Spring Boot, Angular, PostgreSQL, and Docker while understanding FLINT.Reporting in depth. Experience with Spring Boot and PostgreSQL is preferred. Experience with Angular and Docker would be helpful. Understanding FLINT would be preferred but optional.
+
+### Resources
+
+- FLINT.Reporting: ​​https://docs.moja.global/projects/flint-reporting/en/latest/index.html
+
+### First steps
+
+Get FLINT.Reporting up and running on your local machine by following the docs and understanding the various microservices and software components. After setup and initial discovery, share your findings on the `#reporting-tool` channel.
