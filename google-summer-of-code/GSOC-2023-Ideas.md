@@ -154,3 +154,39 @@ During this project, the developer will work with the Technical Steering Committ
 ### First steps
 
 Get FLINT.Reporting up and running on your local machine by following the docs and understanding the various microservices and software components. After setup and initial discovery, share your findings on the `#reporting-tool` channel.
+
+# Idea: UI pipeline for a deforestation predictor
+
+## Abstract
+
+Deforestation is one of the primary sources of greenhouse gas emissions from the land sector. Efforts to reduce deforestation are currently hampered because of a lack of accurate predictions. This project is focused on developing a UI pipeline around our ML model. The model predicts the likelihood of a particular area in the landscape being deforested over the projection period. The predicted deforestation for each area can be aggregated to obtain expected deforestation for a project area, administrative region, or whole country, which will be more informative for the policy-building agencies.
+
+The model pipeline involves predicting deforestation using Landsat 7 satellite images from the Google Earth Engine (GEE) and deforestation labels extracted from relevant datasets (such as the [matt hansen dataset](<https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.7.html>)).
+
+This project aims to *make the model available to a broader audience.* One of our goals since the project's inception has been to facilitate decision-makers to make informed decisions using our model. Open-sourcing the code and creating convenient interfaces to interact with the model are steps toward this goal.
+
+| Category              | Rating                                   |
+| --------------------- | ---------------------------------------- |
+| Intensity             | Moderate                                 |
+| Priority              | Medium                                   |
+| Skills                | Python, JavaScript, UI/UX, Design Systems|
+| Project Size          | Large(350 hours)                         |
+| Preferred Contributor | Student                                  |
+| Mentors               | @harshcasper                             |
+
+## Project goals
+
+This project entails the following:
+
+- Creating a web-based application to interact with the model. This would involve taking geospatial coordinates from the user as input and connecting with the remote model server to process the query. 
+- Returning the user to a neat and intuitive interface consisting of relevant model outputs, the deforestation labels for the queried region, deforestation plots, and explainability information.
+- Managing the deployment of the model and the server-side development at scale to handle large-scale deployments and accommodate faster inferences.
+- Development of a scalable user interface that introduces new input and output parameters with minimal effort/change in the client-side code-base for ease of maintenance.
+
+## Technical skills
+
+Experience designing and implementing Web Applications while managing end-to-end client and server-side development is a must! Understanding of a popular Python web framework (FastAPI, Flask, Django) is needed. The choice of the UI library/tools is flexible and will be based on the consensus of the mentor and the mentee. Understanding how a complete UI stack is set up would help the project be finished smoothly. Knowledge of the formats in which large geographical images are stored/rendered is preferred but optional.
+
+## First steps
+
+Please get started by reading and understanding the problem statement and our approach in this [publically available case study](https://community.moja.global/case-studies/powering-deforestation-prediction-using-artificial-intelligence). Try to understand the case study, the use-cases and how you can build an application around it. Share your thoughts on the `#machine-learning` channel and start working on the project's rough architecture and system design.
