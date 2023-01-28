@@ -7,11 +7,15 @@
 - Start as early as possible; Make first contacts with the mentors before starting to fill in the proposal and make sure to discuss your project idea.
 - Share the first draft of your proposal as early as possible; Do not copy-paste from the official project description.
 - Share the proposal link as text, markdown, Google docs or anything else as long as it is easy to share, and will not require anyone to download something.
-- Final proposals should be submitted on the Google Summer of Code website before the deadline and after all the reviews have been done. 
+- Final proposals should be submitted on the Google Summer of Code website before the deadline and after all the reviews have been done.
 
-> Remove this section while you are writing the proposal. These pointers are purely meant for communicating the right details with the developers interested in proposing their ideas.
+### GSoC Template [Link](https://docs.google.com/document/d/1A6PnUWaxuFcl4Mwydgq7WluHJ1XkYVd5cX_-fSwgXpo/edit#)
 
 ## Title
+
+### Personal Details
+
+> This will include basic personal details. Which include your Name, Email, Github, LinkedIn, and Country. You add or more fields based on your preference. With the help of this information we can contact the candidate in case of any need.
 
 ### Abstract
 
@@ -39,8 +43,8 @@
 
 ### About me
 
-> Add your name, personal details and contact information (Slack ID, E-Mail). Optionally, add why you would you consider yourself as the best person for this project.
+> Introduce yourself here in a brief manner. Try to answer basic qustions like Who are you? What are your interest?. Add your name, personal details and contact information (Slack ID, E-Mail).
 
-### Appendix
+### What you expect from the mentor? (optional)
 
-> Mention any external references, information, hyperlinks here.
+> This field is optional. You can put your preference for what kind of mentorship will work the best for you. Anything that you want your mentor to have or follow. Anything regarding tech stack or experience can be put here.
