@@ -113,6 +113,51 @@ Moja global teams also have development-specific draft guides for understanding 
 
 Study the FLINT and follow our [FLINT Developer tutorial](https://www.youtube.com/playlist?list=PL_WECUlMWiUkyx5ohT2jglPSa58XmOhgY) and [FLINT Development setup docs](https://docs.moja.global/en/latest/DevelopmentSetup/index.html) to get started. Formulate a release process plan and share your findings with the DevOps and working group on the `#devops` channel.
 
+## Idea: Develop pipeline for high-throughput visualisation on Google Earth Engine 
+
+### Abstract
+
+The outputs of FLINT are spatially explicit and often used to model carbon flux over vast areas (millions of hectares). With the availability of free, global coverage remote sensing data (e.g. Landsat) models are often conducted at 30 m resolution, resulting in billions of spatial units. Natural Resources Canada (NRCan) has developed a visualisation workflow for extensive model outputs. We wish to increase the performance and utility of this pipeline to handle truly massive simulation results. 
+
+The Generic Carbon Budget Model is a set of comprehensive science modules that run on FLINT and report carbon stocks and fluxes for a number of carbon pools relevant to the AFOLU sector. These include forest, debris, soil, peat, moss and atmospheric pools. When running simulations for tens or hundreds of years, at high resolution, over large areas (e.g. regional or national scales) the simulation output databases on the order of hundreds of gigabytes.
+
+Typical post-processing analyses include summarising and aggregating these databases by adminsistrative land-unit (e.g. property, county or state boundaries). Such operations are slow. This project involves developing a new approach to post-processing that improves the performance and throughput of IPCC compliant reporting guidelines. Candidates will be expected to communicate with stakeholders from moja global and NRCan, and demonstrate creativity in proposing new solutions. A background in computer science will be necessary to evaluate the algorithmic complexity of different approaches and algorithms. 
+
+
+| Category              | Rating                                         |
+| --------------------- | ---------------------------------------------- |
+| Difficulty            | Hard                                           |
+| Priority              | High                                           |
+| Skills                | SQL, geopatial analyics, Google Earth Engine   |
+| Project Size          | Large (350 hours)                              |
+| Preferred Contributor | Student/Professional                           |
+| Mentors               | [@aornugent](https://github.com/aornugent)     |
+
+### Project goals
+
+This project entails the following:
+
+- Researching performant algorithms for database aggregation and geospatial operations.
+- Extending exisiting Google Earth Engine scripts to prototype different solutions.
+- Calculate and evaluate the expected performance of the proposed solution.
+- Demonstrate the scaling of the solution from a example subset to a large (85 GB) benchmark dataset.
+
+### Technical skills
+
+During this project, the developer will work with the Implementation working group under the Technical Steering Committee (TSC) on improving the performance of post-processing and visualisation pipelines. Experience with PostgresSQL (or alternative databases), Google Earth Engine and PostGIS or geopandas is preferred. Understanding carbon modelling and the GCBM is be preferred but optional.
+
+### Resources
+
+- GCBM: https://www.nrcan.gc.ca/climate-change/climate-change-impacts-forests/carbon-accounting/forest-carbon-accounting-tools/generic-carbon-budget-model/24366
+- Understanding FLINT: https://docs.moja.global/en/latest/Understanding-FLINT
+- https://earthengine.google.com/
+
+### First steps
+
+Study the GCBM tutorials on our Youtube channel (https://www.youtube.com/watch?v=WQd8VDrgFRk) to get started. Propose an example algorithm that summarises a geospatial timeseries and describe it's time and memory complexity on the `#04-modules-and-gcbm` channel.
+
+
+
 ## Idea: Improving FLINT.Reporting for general-purpose usage
 
 ### Abstract
