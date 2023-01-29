@@ -15,7 +15,7 @@
 
 ### Personal Details
 
-> This will include basic personal details. Which include your Name, Email, Github, LinkedIn, and Country. You add or more fields based on your preference. With the help of this information we can contact the candidate in case of any need.
+> This section will include basic personal details. It should include your Name, Email, Github, LinkedIn, and Country. With the help of this information, we can contact the candidate in case of any need. You add more fields based on your preference.
 
 ### Abstract
 
@@ -43,8 +43,8 @@
 
 ### About me
 
-> Introduce yourself here in a brief manner. Try to answer basic qustions like Who are you? What are your interest?. Add your name, personal details and contact information (Slack ID, E-Mail).
+> Introduce yourself here in a concise manner. Try to answer basic questions like Who are you? What are your interests? Add your name, personal details and contact information (Slack ID, E-Mail).
 
 ### What you expect from the mentor? (optional)
 
-> This field is optional. You can put your preference for what kind of mentorship will work the best for you. Anything that you want your mentor to have or follow. Anything regarding tech stack or experience can be put here.
+> This field is optional. You can choose what kind of mentorship will work best for you. You can put anything regarding technologies you might know or have experience in here.
