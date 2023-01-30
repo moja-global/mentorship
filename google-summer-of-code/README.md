@@ -8,11 +8,18 @@ Students can indicate their interest in working with moja global by just sending
 
 ## Past GSoC projects
 
-| Project               | Student                                                        | Year |
-|-----------------------|--------------------------------------------------------------------|---------|
-| [Develop FLINT JSON User Interface](https://summerofcode.withgoogle.com/archive/2020/projects/5864431432499200/)        | Abhishek Garain                      |   2020      |
-| [Interactive Visualization Tool for GCBM](https://summerofcode.withgoogle.com/archive/2020/projects/5487467823628288/) | Abhineet  |  2020  |
-| [Develop a module for agricultural soils for FLINT](https://summerofcode.withgoogle.com/archive/2020/projects/5367749938774016/) | Sulay Saha     |  2020       |
+| Project               | Student                                                        | Year |  Blogs |
+|-----------------------|--------------------------------------------------------------------|---------|---------------------------------|
+| [Develop FLINT JSON User Interface](https://summerofcode.withgoogle.com/archive/2020/projects/5864431432499200/)        | [Abhishek Garain](https://github.com/abhi211199)                      | 2020      |[Here](https://github.com/moja-global/FLINT.JSON_Interface/wiki/Google-Summer-of-Code'20-documentation-by-Abhishek-Garain) |
+| [Refactor FLINT Core Code Base](https://summerofcode.withgoogle.com/projects/#6660289556119552)        | [Parth Arora](https://github.com/parth-gr)                      | 2020      |[Here](https://gist.github.com/parth-gr/92288bd946532cb072aab7e5153dcf20) |
+| [Interactive Visualization Tool for GCBM](https://summerofcode.withgoogle.com/archive/2020/projects/5487467823628288/) | [Abhineet](https://gist.github.com/abhineet97)  |  2020  |[Here](https://gist.github.com/abhineet97/a06c10b195e8a7fe019bac59b51fb0f3) |
+| [Develop a module for agricultural soils for FLINT](https://summerofcode.withgoogle.com/archive/2020/projects/5367749938774016/) | [Sulay](https://github.com/sulays)     |  2020       | [Here](https://github.com/moja-global/FLINT.Module.Agricultural_Soil_Model/wiki/GSoC'20-Project---Sulay-Shah) |
+| [Building UI library for moja global](https://summerofcode.withgoogle.com/programs/2022/projects/ZqYBMwQd) | [Palak Sharma](https://github.com/Palaksharma23)     |  2022       |[Here](https://community.moja.global/blog/GSoC-2022-Palak-Sharma)|
+| [MLOps for reproducible Science](https://summerofcode.withgoogle.com/programs/2022/projects/TJwx8kkS) | [Radis Toumpalidis](https://github.com/radistoubalidis) |  2022       |[Here](https://community.moja.global/blog/2022/09/11/GSoC-2022-final-report-Radis-Toumpalidis) |
+| [GCBM Simulation Editor for FLINT-UI](https://summerofcode.withgoogle.com/archive/2020/projects/5367749938774016/) | [Yash Kandalkar](https://github.com/YashKandalkar)     |  2022       |[Here](https://community.moja.global/blog/gsoc-gcbm-editor-status-report)|
+
+NOTE: Moja global did not participate in the Google Summer of Code 2021.
+
 
 ## Ideas list
 
