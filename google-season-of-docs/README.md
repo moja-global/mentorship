@@ -8,18 +8,16 @@ Students can indicate their interest in working with moja global by just sending
 
 ## Past GSoD projects
 
-| Project               | Student                                                        | Year |
-|-----------------------|--------------------------------------------------------------------|---------|
-| [Documentation of Reporting Tool Code](https://developers.google.com/season-of-docs/docs/2020/participants/project-mojaglobal-anthony)        | Anthony                      |   2020      |
-| [Documentation of Technical Onboarding Guide for FLINT](https://developers.google.com/season-of-docs/docs/2020/participants/project-mojaglobal-tlazypanda) | Sneha Mishra  |  2020  |
+| Project               | Student                                                        | Year | Blogs |
+|-----------------------|--------------------------------------------------------------------|---------|---------|
+| [Documentation of Reporting Tool Code](https://developers.google.com/season-of-docs/docs/2020/participants/project-mojaglobal-anthony)        | Anthony                      |   2020      | |
+| [Documentation of Technical Onboarding Guide for FLINT](https://developers.google.com/season-of-docs/docs/2020/participants/project-mojaglobal-tlazypanda) | [Sneha Mishra](https://github.com/Tlazypanda)  |  2020  | [Here](https://docs.google.com/document/d/e/2PACX-1vQFSy1F4_hJI4_-c-dkEGjgnriZzTvYGqbIQ2BLw6y2_cxFVAmbW25gkwMF4PY_jMEMo8paeiN1ge9R/pub) |
+| [Develop a content strategy to consolidate and promote documentation for the FLINT](https://github.com/moja-global/mentorship/blob/main/google-season-of-docs/GSOD-2021-Project.md#technical-writer-1---harsh-bardhan-mishra)        | [Harsh Bardhan Mishra](https://github.com/harshcasper)                      |   2021      |[Here](https://harshcasper.com/blog/google-season-of-docs-work-report) |
+| [Develop a community website for the moja global community and consolidate community documentation](https://github.com/moja-global/mentorship/blob/main/google-season-of-docs/GSOD-2021-Project.md#technical-writer-2---sarthak-kundra) | [Sarthak Kundra](https://github.com/sarthakkundra)  |  2021  |[Here](https://dev.to/kundrasarthak/google-season-of-docs-1-n54) |
+| [Building FLINT handbook and preparing credible docs on climate science](https://github.com/moja-global/mentorship/blob/main/google-season-of-docs/GSOD-2022-Project.md#building-flint-handbook-and-preparing-credible-docs-on-climate-science) | [Iheanacho Amarachi Sharon](https://github.com/Iheanacho-ai)  |  2022  | [Here](https://dev.to/amaraiheanacho/my-time-with-moja-global-for-google-season-of-documentation-3ei1) |
+| [Building technical documentation, case studies and testing existing documentation](https://github.com/moja-global/mentorship/blob/main/google-season-of-docs/GSOD-2022-Project.md#building-technical-documentation-case-studies-and-testing-existing-documentation) | [Namya LG](https://github.com/Namyalg)  |  2022  |[Here](https://namyalg.medium.com/google-season-of-docs-final-report-4976c50c0b89) |
 
-## Current GSoD projects
-
-
-| Project               | Student                                                        | Year |
-|-----------------------|--------------------------------------------------------------------|---------|
-| Develop a content strategy to consolidate and promote documentation for the FLINT.        | Harsh Bardhan Mishra                      |   2021      |
-| Develop a community website for the moja global community and consolidate community documentation | Sarthak Kundra  |  2021  |
+ 
 
 ## Ideas list
 
