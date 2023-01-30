@@ -8,13 +8,13 @@ Students can fill up the initial applications for Outreachy once they open. Once
 
 ## Past Outreachy projects
 
-| Project               | Student                                                        | Year |
-|-----------------------|--------------------------------------------------------------------|---------|
-| Climate change speedrun: benchmark and profiling of a C++ MRV library        | Sree Vidhya & Debolina Ghatuary                   |   2021      |
+| Project               | Student                                                        | Year | Blog |
+|-----------------------|--------------------------------------------------------------------|---------|--------|
+| Climate change speedrun: benchmark and profiling of a C++ MRV library        | [Sree Vidhya](https://github.com/vidhya001) & [Debolina Ghatuary](https://github.com/SlipperyGnome)                   |   2021      |[Debolina's Blog](https://debolinaghatuary.medium.com/whats-my-work-at-moja-global-7b7e0c3e4dcb/) and [Sree's Blog](https://vidhya001.github.io/OutreachyBlog/)|
+| Climate change mitigation: entending models of forest carbon pools to new countries      |  [David Guevara-Apaza](https://github.com/yodavo), [Simple Shell](https://github.com/Simpleshell3) and [Asmi Jafar](https://github.com/asmijafar20)                   |   2021      | [David's Blog](https://medium.com/@yodavo/my-first-steps-on-outreachy-2021-and-moja-global-c1ab22e448d) , [Simple Shell's Blog](https://simpleshell.dreamwidth.org/972.html) and [Asmi's Blog](https://community.moja.global/blog/asmi-jafar-outreachy-2021-intern) |
+| Research data sources for carbon sequestration in forests        | [Kateryna Derhaus](https://github.com/derha) and [Ankita Sharma](https://github.com/ankitaS11)     |   2022     | [Ankita's Blog](https://ankitas11.github.io/posts/2022/07/outreachy-my-progress-so-far/) and [Katertna's Blog](https://derhaoutreachy.wordpress.com/blog/) |
 
-## Current Outreachy projects
 
-The application process for the 2021 December to 2022 March round is currently ongoing. Please check back later for updates.
 
 ## Ideas List
 
