@@ -212,7 +212,7 @@ This project aims to *make the model available to a broader audience.* One of ou
 | Difficulty            | Medium                                   |
 | Priority              | Medium                                   |
 | Skills                | Python, JavaScript, UI/UX, Design Systems|
-| Project Size          | Large(350 hours)                         |
+| Project Size          | Large (350 hours)                         |
 | Preferred Contributor | Student                                  |
 | Mentors               | @harshcasper                             |
 
@@ -248,7 +248,7 @@ The goal of this project is to implement an object-oriented refactor for FLINT.C
 | Difficulty            | Medium                                                                   |
 | Priority              | High                                                                     |
 | Skills                | Python, Flask, Docker, Object-Oriented programming, RESTful API design   |
-| Project Size          | Large(350 hours)                                                         |
+| Project Size          | Medium (175 hours)                                                         |
 | Preferred Contributor | Student                                                                  |
 | Mentors               | [Gopinath Balakrishnan](https://www.linkedin.com/in/bgopi), @harshcasper |
 
@@ -308,3 +308,39 @@ Experience with Web development, GitHub Actions and Data Science is preferable. 
 ### First steps
 
 Introduce yourself on Slack in the #cloud channel. Download the FLINT.Cloud GCBM container and re-create the GCBM Demo Run. Share your findings on Slack under `#cloud`. Next, create a small contribution to the FLINT.Cloud project and ask a mentor to trigger the CML workflow. Infer the purpose of the workflow, and design an automation workflow to pull these generated reports into a centralized database to showcase them on a Model Gallery.
+
+## Idea: Improve FLINT-UI's performance and accessibility for better user-experience
+
+[FLINT-UI](https://github.com/moja-global/flint-ui)  provides an intuitive way for new users to explore some preconfigured FLINT modules, including the  [Generic Carbon Budget Model (GCBM)](https://community.moja.global/docs/GCBM/GCBM). The FLINT-UI client is written as a web application and can be used in a local or remote environment. [moja global's UI library](https://github.com/moja-global/ui-library) provides a consistent and easy-to-use library to improve our design & development workflow while satisfying our performance and accessibility requirements. Currently, the FLINT-UI consumes the various components provided by the UI library, and we wish to expand it further to accommodate more use cases.
+
+This project would involve improving the performance & accessibility of FLINT-UI to scale the platform and implement modern practices, including accessibility testing. The project would also include setting up a complete unit & E2E test suite, using Jest and Cypress, to tackle common bugs and edge cases. It would allow us to test FLINT-UI's capability to scale and run carbon models on large spatial scales. Finally, we would like to build a consistent user flow to onboard beginners to FLINT and give them enough understanding to try out FLINT-UI models.
+
+The project aims to serve the users from a stand-alone point of view to make our preconfigured FLINT modules available to many users while ensuring scale & stability. It would further integrate with the FLINT Model Gallery to facilitate showcasing these capabilities to a broader audience and help the moja global community make consistent decisions. The project would further benefit non-technical users like researchers, policymakers, and analysts to better understand FLINT and the overall simulation process.
+
+| Category              | Rating                                                                   |
+| --------------------- | ------------------------------------------------------------------------ |
+| Difficulty            | Easy                                                                  |
+| Priority              | Medium                                                                     |
+| Skills                | VueJS, Web Accessibility, Jest, Cypress, Web Performance, CSS                |
+| Project Size          | Medium (175 hours)                                                         |
+| Preferred Contributor | Student                                                                  |
+| Mentors               | @Palaksharma23, @Janvi-Thakkar |
+
+### Project goals
+
+In 2021 we began several projects to increase the accessibility of the Full Lands Integration Tool (FLINT) by providing the FLINT-UI project. FLINT-UI is a service or tool part of the moja global ecosystem built around FLINT. The core goal of the FLINT-UI is to make a complex model more accessible. To improve the developer experience, we developed the UI Library, which hosts various moja global-specific components to allow developers to prototype and implement the interfaces while modifying the simulations in new ways. However, in this exercise, we missed test-driven development, and the lack of standards in performance & accessibility led to a degraded user experience that ought to be fixed. 
+
+This project entails the following:
+
+- Benchmarking the performance and accessibility of FLINT-UI and identifying the bottlenecks while also identifying the areas of improvement and fixing them.
+- Setting up a complete unit & E2E test suite, which we can automate to run on GitHub Actions CI to ensure project stability and functionality.
+- Re-designing the user experience flow to onboard beginners to FLINT and give them enough understanding to try out FLINT-UI models.
+- Coordinating with the Documentation Working group to use the new FlINT Handbook to mitigate common usage questions and improve onboarding for new users.
+
+### Technical skills
+
+During this project, the developer will be working with the UI working group under the Technical Steering Committee (TSC) on contributing to FLINT-UI while getting hands-on experience on working with VueJS, Web accessibility & performance, Docker and testing. Experience with VueJS and JavaScript is preferred. Experience with testing and automation would be useful. Understanding of FLINT & GCBM would be preferred but not necessary.
+
+### First steps
+
+Introduce yourself on Slack in the `#user-interface` channel and review the existing preconfigured FLINT modules on FLINT-UI. After running those modules, share your inferences as a small document to help us review your understanding of the project. Next, create a small contribution to the FLINT-UI project and ask mentors for feedback. Review the UI library and identify scopes for improvement to make them more accessible and performant.
