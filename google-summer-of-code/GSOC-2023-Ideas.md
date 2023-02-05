@@ -123,7 +123,6 @@ The Generic Carbon Budget Model is a set of comprehensive science modules that r
 
 Typical post-processing analyses include summarising and aggregating these databases by administrative land unit (e.g., property, county, or state boundaries). Such operations are slow. This project involves developing a new approach to post-processing that improves the performance and throughput of IPCC-compliant reporting guidelines. Candidates will be expected to communicate with stakeholders from moja global and NRCan and demonstrate creativity in proposing new solutions. A background in computer science will be necessary to evaluate the algorithmic complexity of different approaches and algorithms. 
 
-
 | Category              | Rating                                         |
 | --------------------- | ---------------------------------------------- |
 | Difficulty            | Hard                                           |
@@ -210,7 +209,7 @@ This project aims to *make the model available to a broader audience.* One of ou
 
 | Category              | Rating                                   |
 | --------------------- | ---------------------------------------- |
-| Intensity             | Moderate                                 |
+| Intensity             | Medium                                 |
 | Priority              | Medium                                   |
 | Skills                | Python, JavaScript, UI/UX, Design Systems|
 | Project Size          | Large(350 hours)                         |
@@ -233,3 +232,41 @@ Experience designing and implementing Web Applications while managing end-to-end
 ### First steps
 
 Please get started by reading and understanding the problem statement and our approach in this [publically available case study](https://community.moja.global/case-studies/powering-deforestation-prediction-using-artificial-intelligence). Try to understand the case study, the use-cases and how you can build an application around it. Share your thoughts on the `#machine-learning` channel and start working on the project's rough architecture and system design.
+
+## Idea: Object-oriented refactor of FLINT.Cloud
+
+### Abstract
+
+Moja global's community runs earth system simulations to track the flow of carbon in the forestry and land sectors. Models are calibrated to account for climate, forest types, disturbances (like fires, hurricanes, and so on), and land-use transitions. FLINT.Cloud is a cloud deployment framework for rapid deployment of FLINT implementations and offering FLINT as a demonstration service. It currently provides various models & simulations that allow an easy entry point for new users to evaluate the FLINT platform and provide a blueprint for new users to roll their own.
+
+Currently, the FLINT.Cloud offers two microservices: FLINT.Example REST API and GCBM REST API. The current implementation follows a functional programming paradigm that is difficult to scale. We have often faced problems implementing new API endpoints and following a consistent schema that would enable us to version our APIs and work on new features. We also wish to switch to an asynchronous, event-driven mode of executing the simulations to ensure a more efficient API layout and an increased processing velocity.
+
+The goal of this project is to implement an object-oriented refactor for FLINT.Cloud, including the addition of `Flask-RESTful` to extend the project modularity. The project should also involve the investigation and implementation of asynchronous task processing to make the carbon simulations more efficient. The current scope of work also entails implementing the unit, integration, and E2E tests to cover the new functional implementation and scale aspects.
+
+| Category              | Rating                                                                   |
+| --------------------- | ------------------------------------------------------------------------ |
+| Intensity             | Medium                                                                   |
+| Priority              | High                                                                     |
+| Skills                | Python, Flask, Docker, Object-Oriented programming, RESTful API design   |
+| Project Size          | Large(350 hours)                                                         |
+| Preferred Contributor | Student                                                                  |
+| Mentors               | [Gopinath Balakrishnan](https://www.linkedin.com/in/bgopi), @harshcasper |
+
+### Project goals
+
+In 2021 & 2022, we implemented FlINT.Cloud to showcase a cloud pipeline for FLINT deployments. During this timeline, we also significantly refactored the GCBM REST API to make it more scalable and easier to maintain. As the project progresses, we have identified the need for refactoring the FLINT.Cloud microservices, with a focus on developer experience, scalability, and maintainability. It would ensure the robustness of the blueprint we provide to our users and make it easy to run earth system simulations to track carbon flow in the AFOLU sector at scale.
+
+This project entails the following:
+
+- Refactor the FLINT.Cloud microservices to follow an object-oriented programming paradigm which would involve the implementation of a new schema structure.
+- Improve the project's modularity by implementing `Flask-RESTful` extension to FLINT.Cloud microservices, and draw out a consistent testing strategy for the new implementation.
+- Investigate and implement asynchronous task processing to make the carbon simulations more efficient for our users and benchmark the performance of the new implementation.
+- Present a proof-of-concept for event-driven processing of the carbon simulations, to make the microservices protocol-agnostic and document the new implementation.
+
+### Technical skills
+
+Experience with Python, Flask, and Object-oriented programming is preferable. Understanding Docker and various engineering aspects, such as design, development, testing, and packaging, is useful. Experience with asynchronous task processing and event-driven programming is a plus. Knowledge of the FLINT ecosystem, including various moja global projects, carbon models, and GCBM, is preferred but optional.
+
+### First steps
+
+Introduce yourself on Slack in the `#cloud` channel. Download the FLINT.Cloud GCBM container and re-create the GCBM Demo Run. Share your findings on Slack under `#cloud`. Next, create a system design for the new implementation focusing on improving the API performance, and share it on Slack.
