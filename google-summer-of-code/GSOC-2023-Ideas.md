@@ -117,18 +117,18 @@ Study the FLINT and follow our [FLINT Developer tutorial](https://www.youtube.co
 
 ### Abstract
 
-The outputs of FLINT are spatially explicit and often used to model carbon flux over vast areas (millions of hectares). With the availability of free, global coverage remote sensing data (e.g. Landsat) models are often conducted at 30 m resolution, resulting in billions of spatial units. Natural Resources Canada (NRCan) has developed a visualisation workflow for extensive model outputs. We wish to increase the performance and utility of this pipeline to handle truly massive simulation results. 
+The outputs of FLINT are spatially explicit and often used to model carbon flux over vast areas (millions of hectares). With free, global coverage availability, remote sensing data (e.g., Landsat) models are often conducted at 30 m resolution, resulting in billions of spatial units. Natural Resources Canada (NRCan) has developed a visualization workflow for extensive model outputs. We wish to increase the performance and utility of this pipeline to handle truly massive simulation results. 
 
-The Generic Carbon Budget Model is a set of comprehensive science modules that run on FLINT and report carbon stocks and fluxes for a number of carbon pools relevant to the AFOLU sector. These include forest, debris, soil, peat, moss and atmospheric pools. When running simulations for tens or hundreds of years, at high resolution, over large areas (e.g. regional or national scales) the simulation output databases on the order of hundreds of gigabytes.
+The Generic Carbon Budget Model is a set of comprehensive science modules that run on FLINT and report carbon stocks and fluxes for several carbon pools relevant to the AFOLU sector. These include forest, debris, soil, peat, moss, and atmospheric pools. While running simulations for tens or hundreds of years, at high resolution, over large areas (e.g., regional or national scales) results in the simulation output databases on hundreds of gigabytes.
 
-Typical post-processing analyses include summarising and aggregating these databases by adminsistrative land-unit (e.g. property, county or state boundaries). Such operations are slow. This project involves developing a new approach to post-processing that improves the performance and throughput of IPCC compliant reporting guidelines. Candidates will be expected to communicate with stakeholders from moja global and NRCan, and demonstrate creativity in proposing new solutions. A background in computer science will be necessary to evaluate the algorithmic complexity of different approaches and algorithms. 
+Typical post-processing analyses include summarising and aggregating these databases by administrative land unit (e.g., property, county, or state boundaries). Such operations are slow. This project involves developing a new approach to post-processing that improves the performance and throughput of IPCC-compliant reporting guidelines. Candidates will be expected to communicate with stakeholders from moja global and NRCan and demonstrate creativity in proposing new solutions. A background in computer science will be necessary to evaluate the algorithmic complexity of different approaches and algorithms. 
 
 
 | Category              | Rating                                         |
 | --------------------- | ---------------------------------------------- |
 | Difficulty            | Hard                                           |
 | Priority              | High                                           |
-| Skills                | SQL, geopatial analyics, Google Earth Engine   |
+| Skills                | SQL, Geopatial analytics, Google Earth Engine  |
 | Project Size          | Large (350 hours)                              |
 | Preferred Contributor | Student/Professional                           |
 | Mentors               | [@aornugent](https://github.com/aornugent)     |
@@ -138,13 +138,13 @@ Typical post-processing analyses include summarising and aggregating these datab
 This project entails the following:
 
 - Researching performant algorithms for database aggregation and geospatial operations.
-- Extending exisiting Google Earth Engine scripts to prototype different solutions.
+- Extending existing Google Earth Engine scripts to prototype different solutions.
 - Calculate and evaluate the expected performance of the proposed solution.
-- Demonstrate the scaling of the solution from a example subset to a large (85 GB) benchmark dataset.
+- Demonstrate the solution's scaling from an example subset to a large (85 GB) benchmark dataset.
 
 ### Technical skills
 
-During this project, the developer will work with the Implementation working group under the Technical Steering Committee (TSC) on improving the performance of post-processing and visualisation pipelines. Experience with PostgresSQL (or alternative databases), Google Earth Engine and PostGIS or geopandas is preferred. Understanding carbon modelling and the GCBM is be preferred but optional.
+During this project, the developer will work with the Implementation working group under the Technical Steering Committee (TSC) on improving the performance of post-processing and visualization pipelines. Experience with PostgreSQL (or alternative databases), Google Earth Engine, PostGIS, or geopandas is preferred. Understanding carbon modeling and the GCBM is preferred but optional.
 
 ### Resources
 
@@ -154,9 +154,7 @@ During this project, the developer will work with the Implementation working gro
 
 ### First steps
 
-Study the GCBM tutorials on our Youtube channel (https://www.youtube.com/watch?v=WQd8VDrgFRk) to get started. Propose an example algorithm that summarises a geospatial timeseries and describe it's time and memory complexity on the `#04-modules-and-gcbm` channel.
-
-
+Study the GCBM tutorials on our Youtube channel (https://www.youtube.com/watch?v=WQd8VDrgFRk) to get started. Propose an example algorithm that summarises a geospatial time series and describes its time and memory complexity on the `#04-modules-and-gcbm` channel.
 
 ## Idea: Improving FLINT.Reporting for general-purpose usage
 
@@ -200,9 +198,9 @@ During this project, the developer will work with the Technical Steering Committ
 
 Get FLINT.Reporting up and running on your local machine by following the docs and understanding the various microservices and software components. After setup and initial discovery, share your findings on the `#reporting-tool` channel.
 
-# Idea: UI pipeline for a deforestation predictor
+## Idea: UI pipeline for a deforestation predictor
 
-## Abstract
+### Abstract
 
 Deforestation is one of the primary sources of greenhouse gas emissions from the land sector. Efforts to reduce deforestation are currently hampered because of a lack of accurate predictions. This project is focused on developing a UI pipeline around our ML model. The model predicts the likelihood of a particular area in the landscape being deforested over the projection period. The predicted deforestation for each area can be aggregated to obtain expected deforestation for a project area, administrative region, or whole country, which will be more informative for the policy-building agencies.
 
@@ -219,7 +217,7 @@ This project aims to *make the model available to a broader audience.* One of ou
 | Preferred Contributor | Student                                  |
 | Mentors               | @harshcasper                             |
 
-## Project goals
+### Project goals
 
 This project entails the following:
 
@@ -228,10 +226,10 @@ This project entails the following:
 - Managing the deployment of the model and the server-side development at scale to handle large-scale deployments and accommodate faster inferences.
 - Development of a scalable user interface that introduces new input and output parameters with minimal effort/change in the client-side code-base for ease of maintenance.
 
-## Technical skills
+### Technical skills
 
 Experience designing and implementing Web Applications while managing end-to-end client and server-side development is a must! Understanding of a popular Python web framework (FastAPI, Flask, Django) is needed. The choice of the UI library/tools is flexible and will be based on the consensus of the mentor and the mentee. Understanding how a complete UI stack is set up would help the project be finished smoothly. Knowledge of the formats in which large geographical images are stored/rendered is preferred but optional.
 
-## First steps
+### First steps
 
 Please get started by reading and understanding the problem statement and our approach in this [publically available case study](https://community.moja.global/case-studies/powering-deforestation-prediction-using-artificial-intelligence). Try to understand the case study, the use-cases and how you can build an application around it. Share your thoughts on the `#machine-learning` channel and start working on the project's rough architecture and system design.
