@@ -209,7 +209,7 @@ This project aims to *make the model available to a broader audience.* One of ou
 
 | Category              | Rating                                   |
 | --------------------- | ---------------------------------------- |
-| Intensity             | Medium                                 |
+| Difficulty            | Medium                                   |
 | Priority              | Medium                                   |
 | Skills                | Python, JavaScript, UI/UX, Design Systems|
 | Project Size          | Large(350 hours)                         |
@@ -245,7 +245,7 @@ The goal of this project is to implement an object-oriented refactor for FLINT.C
 
 | Category              | Rating                                                                   |
 | --------------------- | ------------------------------------------------------------------------ |
-| Intensity             | Medium                                                                   |
+| Difficulty            | Medium                                                                   |
 | Priority              | High                                                                     |
 | Skills                | Python, Flask, Docker, Object-Oriented programming, RESTful API design   |
 | Project Size          | Large(350 hours)                                                         |
@@ -270,3 +270,41 @@ Experience with Python, Flask, and Object-oriented programming is preferable. Un
 ### First steps
 
 Introduce yourself on Slack in the `#cloud` channel. Download the FLINT.Cloud GCBM container and re-create the GCBM Demo Run. Share your findings on Slack under `#cloud`. Next, create a system design for the new implementation focusing on improving the API performance, and share it on Slack.
+
+## Idea: Develop FLINT Model Gallery to host simulation reports
+
+## Abstract
+
+FLINT.Cloud supports a Data version control (DVC) and Continuous machine learning (CML) integration that we can apply to deployment scenario templates, enabling developers to keep track of their artifacts and their versions, resolve issues, and collaborate across teams and systems. Using GitHub Actions, we provide the functionality of reproducible analysis by providing Docker containers running example models using a simple Flask API and the moja global's FLINT CLI. The workflow similarly supports saving the output of the configuration phase to reuse for subsequent builds.
+
+This project aims to build a Model Gallery for hosting and showcasing simulations for potential outcomes for three moja global projects — FLINT.Cloud, GCBM Belize, and GCBM Colombia. We want to develop a universal workflow that can create simulations for all of these projects, aggregate them together and display them on a Model Gallery by fetching them from GitHub APIs. We would utilize the Model Gallery to showcase how FLINT.Cloud's DVC & CML integration can work with other projects within the moja global ecosystem.
+
+The project would also involve the development of a web application to make these simulations available to a broader audience. These simulations would also need to be triggered at a specific interval, after which they can be updated on the Model Gallery. The generated reports can then be cross-communicated with the Technical Steering Committee to showcase the capabilities of the FLINT and GCBM platforms.
+
+| Category              | Rating                                                                   |
+| --------------------- | ------------------------------------------------------------------------ |
+| Difficulty            | Hard                                                                  |
+| Priority              | Medium                                                                     |
+| Skills                | VueJS, Flask, GitHub Actions, Docker, GitHub APIs, GraphQL                |
+| Project Size          | Large (350 hours)                                                         |
+| Preferred Contributor | Student                                                                  |
+| Mentors               | @SanjaySinghRajpoot, @Janvi-Thakkar |
+
+### Project goals
+
+In 2022, we led the development of Data Version Control (DVC) and Continuous machine learning (CML) to streamline the workflow of data scientists on the FLINT.Cloud project. Moja global open-sources various land sector datasets for use as inputs into FLINT models. The bottleneck now becomes the calibration of FLINT models to specific data requirements, tackled with DVC & CML by providing a lightweight means to track the particular configuration and calibration of FLINT simulations. However, a critical gap in this capability is the non-availability of a platform that can enable continuous simulations and showcase these aggregated reports.
+
+This project entails the following:
+
+- Developing an application architecture to display event-driven reports generated by an update in any of the three major global projects: FLINT.Cloud, GCBM Belize, and GCBM Colombia.
+- Implement an automation workflow to utilize GitHub and CML APIs to get these updated reports from various projects and display them on the application.
+- Build the client application using VueJS and the server-side APIs using Flask (or any Python backend framework) that can present updated reports with minimal maintenance.
+- Innovate an integration test suite to enhance the user story with reproducible examples from moja global's datasets.
+
+### Technical skills
+
+Experience with Web development, GitHub Actions and Data Science is preferable. Understanding automation and GitHub's GraphQL APIs is helpful. Understanding DVC and CML would be preferred but not necessary. Understanding computational ecology or earth system modelling helps verify what model results make useful summaries, but your mentors can provide appropriate guidance in this area.
+
+### First steps
+
+Introduce yourself on Slack in the #cloud channel. Download the FLINT.Cloud GCBM container and re-create the GCBM Demo Run. Share your findings on Slack under `#cloud`. Next, create a small contribution to the FLINT.Cloud project and ask a mentor to trigger the CML workflow. Infer the purpose of the workflow, and design an automation workflow to pull these generated reports into a centralized database to showcase them on a Model Gallery.
