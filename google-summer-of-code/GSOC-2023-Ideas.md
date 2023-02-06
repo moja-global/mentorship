@@ -31,7 +31,6 @@ Although this project aims to run a unique FLINT simulation of forest dynamics f
 | Preferred Contributor | Student/Professional                 |
 | Mentors               | @aornugent, @HarshCasper             |
 
-
 ### Project Goals
 
 FLINT.cloud provides several templates for container-based deployment of FLINT with a Flask-based API. We have successfully implemented the Generic Carbon Budget Model that describes forest dynamics of large landscapes. We want to demonstrate this capability by running many smaller examples across various ecosystems and climate conditions. 
@@ -230,6 +229,10 @@ This project entails the following:
 
 Experience designing and implementing Web Applications while managing end-to-end client and server-side development is a must! Understanding of a popular Python web framework (FastAPI, Flask, Django) is needed. The choice of the UI library/tools is flexible and will be based on the consensus of the mentor and the mentee. Understanding how a complete UI stack is set up would help the project be finished smoothly. Knowledge of the formats in which large geographical images are stored/rendered is preferred but optional.
 
+### Resources
+
+- Powering Deforestation prediction using Artificial Intelligence: https://community.moja.global/case-studies/powering-deforestation-prediction-using-artificial-intelligence
+
 ### First steps
 
 Please get started by reading and understanding the problem statement and our approach in this [publically available case study](https://community.moja.global/case-studies/powering-deforestation-prediction-using-artificial-intelligence). Try to understand the case study, the use-cases and how you can build an application around it. Share your thoughts on the `#11-machine-learning` channel and start working on the project's rough architecture and system design.
@@ -267,6 +270,12 @@ This project entails the following:
 ### Technical skills
 
 Experience with Python, Flask, and Object-oriented programming is preferable. Understanding Docker and various engineering aspects, such as design, development, testing, and packaging, is useful. Experience with asynchronous task processing and event-driven programming is a plus. Knowledge of the FLINT ecosystem, including various moja global projects, carbon models, and GCBM, is preferred but optional.
+
+### Resources
+
+- FLINT.Cloud: https://github.com/moja-global/flint.cloud
+- Flask-RESTful: https://flask-restful.readthedocs.io/en/latest/
+- FastAPI: https://fastapi.tiangolo.com/
 
 ### First steps
 
@@ -306,6 +315,12 @@ This project entails the following:
 
 Experience with Web development, GitHub Actions and Data Science is preferable. Understanding automation and GitHub's GraphQL APIs is helpful. Understanding DVC and CML would be preferred but not necessary. Understanding computational ecology or earth system modelling helps verify what model results make useful summaries, but your mentors can provide appropriate guidance in this area.
 
+### Resources
+
+- MLOps for Reproducible Science: https://community.moja.global/blog/2022/09/11/GSoC-2022-final-report-Radis-Toumpalidis
+- CML workflow: https://github.com/moja-global/FLINT.Cloud/blob/master/.github/workflows/cml-report.yml
+- Ecosystem Modelling Facility - Gallery Example: https://emf.creaf.cat/external_models/
+
 ### First steps
 
 Introduce yourself on Slack in the #cloud channel. Download the FLINT.Cloud GCBM container and re-create the GCBM Demo Run. Share your findings on Slack under `#06-cloud`. Next, create a small contribution to the FLINT.Cloud project and ask a mentor to trigger the CML workflow. Infer the purpose of the workflow, and design an automation workflow to pull these generated reports into a centralized database to showcase them on a Model Gallery.
@@ -343,6 +358,12 @@ This project entails the following:
 ### Technical skills
 
 During this project, the developer will be working with the UI working group under the Technical Steering Committee (TSC) on contributing to FLINT-UI while getting hands-on experience on working with VueJS, Web accessibility & performance, Docker and testing. Experience with VueJS and JavaScript is preferred. Experience with testing and automation would be useful. Understanding of FLINT & GCBM would be preferred but not necessary.
+
+### Resources
+
+- FLINT-UI: https://flint-ui.vercel.app/
+- Code repository: https://github.com/moja-global/flint-ui
+- Documentation: https://docs.moja.global/projects/flint-ui/en/latest/
 
 ### First steps
 
