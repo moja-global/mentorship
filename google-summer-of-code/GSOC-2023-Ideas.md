@@ -22,14 +22,15 @@ Our project involves finding 100+ small squares of forest worldwide and cross-re
 
 Although this project aims to run a unique FLINT simulation of forest dynamics for each location, the parameterization and analysis of these simulations will be developed by a cohort of community members of which you will be a part. You'll be responsible for helping set up a scalable and repeatable system for running these simulations, storing and sharing each result in a NoSQL Database (MongoDB). The DevOps Working Group has templates for local and cloud-based deployment of FLINT, and it's associated models that you can use.
 
-| Category              | Rating                                                                                     |
-| --------------------- | ------------------------------------------------------------------------------------------ |
-| Difficulty            | Medium                                                                                     |
-| Priority              | High                                                                                       |
-| Skills                | Python, MongoDB, CI/CD, Data Science                                                       |
-| Project Size          | Medium (175 hours)                                                                         |
-| Preferred Contributor | Student/Professional                                                                       |
-| Mentors               | [@aornugent](https://github.com/aornugent), [@HarshCasper](https://github.com/harshcasper) |
+| Category              | Rating                               |
+| --------------------- | ------------------------------------ |
+| Difficulty            | Medium                               |
+| Priority              | High                                 |
+| Skills                | Python, MongoDB, CI/CD, Data Science |
+| Project Size          | Medium (175 hours)                   |
+| Preferred Contributor | Student/Professional                 |
+| Mentors               | @aornugent, @HarshCasper             |
+
 
 ### Project Goals
 
@@ -207,14 +208,14 @@ The model pipeline involves predicting deforestation using Landsat 7 satellite i
 
 This project aims to *make the model available to a broader audience.* One of our goals since the project's inception has been to facilitate decision-makers to make informed decisions using our model. Open-sourcing the code and creating convenient interfaces to interact with the model are steps toward this goal.
 
-| Category              | Rating                                   |
-| --------------------- | ---------------------------------------- |
-| Difficulty            | Medium                                   |
-| Priority              | Medium                                   |
-| Skills                | Python, JavaScript, UI/UX, Design Systems|
+| Category              | Rating                                    |
+| --------------------- | ----------------------------------------- |
+| Difficulty            | Medium                                    |
+| Priority              | Medium                                    |
+| Skills                | Python, JavaScript, UI/UX, Design Systems |
 | Project Size          | Large (350 hours)                         |
-| Preferred Contributor | Student                                  |
-| Mentors               | @harshcasper                             |
+| Preferred Contributor | Student                                   |
+| Mentors               | @harshcasper                              |
 
 ### Project goals
 
@@ -241,14 +242,14 @@ Moja global's community runs earth system simulations to track the flow of carbo
 
 Currently, the FLINT.Cloud offers two microservices: FLINT.Example REST API and GCBM REST API. The current implementation follows a functional programming paradigm that is difficult to scale. We have often faced problems implementing new API endpoints and following a consistent schema that would enable us to version our APIs and work on new features. We also wish to switch to an asynchronous, event-driven mode of executing the simulations to ensure a more efficient API layout and an increased processing velocity.
 
-The goal of this project is to implement an object-oriented refactor for FLINT.Cloud, including the addition of `Flask-RESTful` to extend the project modularity. The project should also involve the investigation and implementation of asynchronous task processing to make the carbon simulations more efficient. The current scope of work also entails implementing the unit, integration, and E2E tests to cover the new functional implementation and scale aspects.
+The goal of this project is to implement an object-oriented refactor for FLINT.Cloud, including the addition of `Flask-RESTful` to extend the project modularity. We are also open to exploring the use of FastAPI, which would involve refactoring the existing codebase to use the new framework. The project should also involve the investigation and implementation of asynchronous task processing to make the carbon simulations more efficient. The current scope of work also entails implementing the unit, integration, and E2E tests to cover the new functional implementation and scale aspects.
 
 | Category              | Rating                                                                   |
 | --------------------- | ------------------------------------------------------------------------ |
 | Difficulty            | Medium                                                                   |
 | Priority              | High                                                                     |
 | Skills                | Python, Flask, Docker, Object-Oriented programming, RESTful API design   |
-| Project Size          | Medium (175 hours)                                                         |
+| Project Size          | Medium (175 hours)                                                       |
 | Preferred Contributor | Student                                                                  |
 | Mentors               | [Gopinath Balakrishnan](https://www.linkedin.com/in/bgopi), @harshcasper |
 
@@ -281,14 +282,14 @@ This project aims to build a Model Gallery for hosting and showcasing simulation
 
 The project would also involve the development of a web application to make these simulations available to a broader audience. These simulations would also need to be triggered at a specific interval, after which they can be updated on the Model Gallery. The generated reports can then be cross-communicated with the Technical Steering Committee to showcase the capabilities of the FLINT and GCBM platforms.
 
-| Category              | Rating                                                                   |
-| --------------------- | ------------------------------------------------------------------------ |
-| Difficulty            | Hard                                                                  |
-| Priority              | Medium                                                                     |
-| Skills                | VueJS, Flask, GitHub Actions, Docker, GitHub APIs, GraphQL                |
-| Project Size          | Large (350 hours)                                                         |
-| Preferred Contributor | Student                                                                  |
-| Mentors               | @SanjaySinghRajpoot, @Janvi-Thakkar |
+| Category              | Rating                                                     |
+| --------------------- | ---------------------------------------------------------- |
+| Difficulty            | Hard                                                       |
+| Priority              | Medium                                                     |
+| Skills                | VueJS, Flask, GitHub Actions, Docker, GitHub APIs, GraphQL |
+| Project Size          | Large (350 hours)                                          |
+| Preferred Contributor | Student                                                    |
+| Mentors               | @SanjaySinghRajpoot, @Janvi-Thakkar                        |
 
 ### Project goals
 
@@ -311,20 +312,22 @@ Introduce yourself on Slack in the #cloud channel. Download the FLINT.Cloud GCBM
 
 ## Idea: Improve FLINT-UI's performance and accessibility for better user-experience
 
+### Abstract
+
 [FLINT-UI](https://github.com/moja-global/flint-ui)  provides an intuitive way for new users to explore some preconfigured FLINT modules, including the  [Generic Carbon Budget Model (GCBM)](https://community.moja.global/docs/GCBM/GCBM). The FLINT-UI client is written as a web application and can be used in a local or remote environment. [moja global's UI library](https://github.com/moja-global/ui-library) provides a consistent and easy-to-use library to improve our design & development workflow while satisfying our performance and accessibility requirements. Currently, the FLINT-UI consumes the various components provided by the UI library, and we wish to expand it further to accommodate more use cases.
 
 This project would involve improving the performance & accessibility of FLINT-UI to scale the platform and implement modern practices, including accessibility testing. The project would also include setting up a complete unit & E2E test suite, using Jest and Cypress, to tackle common bugs and edge cases. It would allow us to test FLINT-UI's capability to scale and run carbon models on large spatial scales. Finally, we would like to build a consistent user flow to onboard beginners to FLINT and give them enough understanding to try out FLINT-UI models.
 
 The project aims to serve the users from a stand-alone point of view to make our preconfigured FLINT modules available to many users while ensuring scale & stability. It would further integrate with the FLINT Model Gallery to facilitate showcasing these capabilities to a broader audience and help the moja global community make consistent decisions. The project would further benefit non-technical users like researchers, policymakers, and analysts to better understand FLINT and the overall simulation process.
 
-| Category              | Rating                                                                   |
-| --------------------- | ------------------------------------------------------------------------ |
-| Difficulty            | Easy                                                                  |
-| Priority              | Medium                                                                     |
-| Skills                | VueJS, Web Accessibility, Jest, Cypress, Web Performance, CSS                |
-| Project Size          | Medium (175 hours)                                                         |
-| Preferred Contributor | Student                                                                  |
-| Mentors               | @Palaksharma23, @Janvi-Thakkar |
+| Category              | Rating                                                        |
+| --------------------- | ------------------------------------------------------------- |
+| Difficulty            | Easy                                                          |
+| Priority              | Medium                                                        |
+| Skills                | VueJS, Web Accessibility, Jest, Cypress, Web Performance, CSS |
+| Project Size          | Medium (175 hours)                                            |
+| Preferred Contributor | Student                                                       |
+| Mentors               | @Palaksharma23, @Janvi-Thakkar                                |
 
 ### Project goals
 
