@@ -347,3 +347,47 @@ During this project, the developer will be working with the UI working group und
 ### First steps
 
 Introduce yourself on Slack in the `#09-user-interface` channel and review the existing preconfigured FLINT modules on FLINT-UI. After running those modules, share your inferences as a small document to help us review your understanding of the project. Next, create a small contribution to the FLINT-UI project and ask mentors for feedback. Review the UI library and identify scopes for improvement to make them more accessible and performant.
+
+## Idea: Python Library for Land Sector Data Analysis
+
+### Abstract
+
+The world we live in is changing, and the consequences of our actions are becoming increasingly apparent. Climate change and deforestation are two of the most pressing issues we face today, and they are interconnected in many ways. Our planet's future depends on our forests' health, and we need to ensure that they are protected and managed sustainably.  
+
+This project involves developing a library to facilitate the analysis of data from moja global's [LandSectorDatasets project](https://github.com/moja-global/Land_Sector_Datasets). This library encapsulates popular tools and is designed to streamline geospatial and land management data analysis. By making this analysis more accessible, we hope to increase the number of people investigating the condition of essential ecosystems worldwide.
+
+The first use case of this library is to collect and pre-process the data needed to model carbon sequestration in forests. Moja global developers will use the library to analyze different geographical locations, taking a subset of many spatially referenced datasets and compiling them to understand our forests' state comprehensively. Moja global developers can then use this information to create models that will help us predict future growth and assist with accurately and affordably estimating greenhouse gas emissions and removals from forestry, agriculture, and other land uses using moja global's flagship FLINT software.
+
+| Category              | Rating                     |
+| --------------------- | -------------------------- |
+| Difficulty            | Medium                     |
+| Priority              | Medium                     |
+| Skills                | Python, Data Analysis, Git |
+| Project Size          | Large (350 hours)          |
+| Preferred Contributor | Student/Professional       |
+| Mentors               | @aornugent, @simpleshell   |
+
+### Project goals
+
+This project aims to develop a Python library to ease the process of analysis of land sector datasets, reducing the hassles of writing several lines of code and time consumption and allowing individuals to focus more on findings and other vital factors.  
+
+This project entails the following:
+
+- Studying the previous land sector data analysis notebooks to consolidate repeated tasks and tools into a single coherent design.
+- Planning the architecture and interaction of functions within the library, allowing it to handle errors and exceptions to avoid mismatches and wrong outputs. 
+- Using a package manager to compile and distribute the python library with all the necessary components and features. 
+- Preparing clean and detailed documentation for both developers to extend the library and non-technical individuals to investigate the dataset without worrying much about the code and errors. 
+- Preparing a series of use case studies demonstrating how developers can apply the library in different contexts (e.g. a web application, a Jupyter notebook, a batch service).
+
+### Technical skills
+
+Experience with Python & Data Science is preferable. Understanding what entails clean, well-documented, and reusable code is required. Understanding the basics of the FLINT software would be preferred. Experience with Python package management and distribution is helpful but optional.
+
+### Resources
+
+- Land Sector Dataset: https://github.com/moja-global/Land_Sector_Datasets 
+- Previous Research Notebooks: https://github.com/moja-global/Handbook/issues/8#issuecomment-1328140024
+
+### First steps
+
+Go through the Land Sector Dataset. Join the moja global Slack workspace and look at the previous research notebooks to find the pattern of analysis and common snippets and tools that have been assisting the contributors with their investigation and preparing a plan of how to move ahead and approach the development task.
