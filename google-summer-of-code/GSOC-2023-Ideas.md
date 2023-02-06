@@ -6,7 +6,7 @@ Help fight climate change from your keyboard! [Moja global](https://moja.global)
 
 The FLINT is based on over 20 years of experience building and operating measurement, reporting, and verification (MRV) tools in Australia and Canada. The FLINT provides the capability to quickly establish an operational MRV system responding to policymaking and planning needs. The FLINT has been designed to achieve the required accuracy through step-by-step improvements.
 
-New FLINT users are expected to follow the IPCC guidelines to develop increasingly accurate and robust systems for greenhouse gas accounting. Users are supported by moja global, a vibrant developer community, and philanthropic partners like the UNFCCC and IUCN. We aim to grow our institutional users and require excellent communication, education, and documentation across various topics, including science, policy, and software development.
+New FLINT users are expected to follow the IPCC guidelines to develop increasingly accurate and robust systems for greenhouse gas accounting. Users are supported by moja global, a vibrant developer community, and philanthropic partners like the UNFCCC. We aim to grow our institutional users and require excellent communication, education, and documentation across various topics, including science, policy, and software development.
 
 Moja global has hosted mentees from [Google Summer of Code](https://summerofcode.withgoogle.com/), [Google Season of Docs](https://developers.google.com/season-of-docs), [The Linux Foundation](https://mentorship.lfx.linuxfoundation.org/) and [Outreachy internships](https://outreachy.org/). The Mentorship Working Group can put interested applicants in contact with previous mentees and mentors as needed. We aim to be an inclusive community and hold regular meet-ups for moja global's Working Groups. Enthusiasm, generosity, and creativity are celebrated and encourage people to join our community to collaborate for change.
 
@@ -60,9 +60,9 @@ During this project, you will work with the moja global DevOps Working Group on 
 
 The best way to get started is to join our Slack community: https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw
 
-Please introduce yourself in `#cloud` - we'd love to know where you come from and what you're interested in. Then proceed to `#documentation` and the [FLINT Handbook](https://moja-global.github.io/Handbook/). If you'd like to install FLINT please review the instructions at [docs.moja.global](https://docs.moja.global) and as for help in `#installation` support. We have some demonstration guides in the FLINTcloud and GCBM.Belize that you can follow to better understand the types of models we plan on using. 
+Please introduce yourself in `#cloud` - we'd love to know where you come from and what you're interested in. Then proceed to `#08-documentation` and the [FLINT Handbook](https://moja-global.github.io/Handbook/). If you'd like to install FLINT please review the instructions at [docs.moja.global](https://docs.moja.global) and as for help in `#05-installation-support`. We have some demonstration guides in the FLINTcloud and GCBM.Belize that you can follow to better understand the types of models we plan on using. 
 
-Once comfortable, please study the existing FLINTcloud templates and the Land Sector Datasets repository. Find an appropriate forest dataset and propose a location of interest (pick a forest you like!). Find another datasets of interest and document a workflow to extract and summarise forest squares in your location. Then share your findings on the `#cloud` channel.
+Once comfortable, please study the existing FLINTcloud templates and the Land Sector Datasets repository. Find an appropriate forest dataset and propose a location of interest (pick a forest you like!). Find another datasets of interest and document a workflow to extract and summarise forest squares in your location. Then share your findings on the `#06-cloud` channel.
 
 ## Idea: Packaging FLINT for cross-platform usage 
 
@@ -111,7 +111,7 @@ Moja global teams also have development-specific draft guides for understanding 
 
 ### First steps
 
-Study the FLINT and follow our [FLINT Developer tutorial](https://www.youtube.com/playlist?list=PL_WECUlMWiUkyx5ohT2jglPSa58XmOhgY) and [FLINT Development setup docs](https://docs.moja.global/en/latest/DevelopmentSetup/index.html) to get started. Formulate a release process plan and share your findings with the DevOps and working group on the `#devops` channel.
+Study the FLINT and follow our [FLINT Developer tutorial](https://www.youtube.com/playlist?list=PL_WECUlMWiUkyx5ohT2jglPSa58XmOhgY) and [FLINT Development setup docs](https://docs.moja.global/en/latest/DevelopmentSetup/index.html) to get started. Formulate a release process plan and share your findings with the DevOps and working group on the `#07-devops` channel.
 
 ## Idea: Develop pipeline for high-throughput visualisation on Google Earth Engine 
 
@@ -195,7 +195,7 @@ During this project, the developer will work with the Technical Steering Committ
 
 ### First steps
 
-Get FLINT.Reporting up and running on your local machine by following the docs and understanding the various microservices and software components. After setup and initial discovery, share your findings on the `#reporting-tool` channel.
+Get FLINT.Reporting up and running on your local machine by following the docs and understanding the various microservices and software components. After setup and initial discovery, share your findings on the `#10-reporting-tool` channel.
 
 ## Idea: UI pipeline for a deforestation predictor
 
@@ -231,7 +231,7 @@ Experience designing and implementing Web Applications while managing end-to-end
 
 ### First steps
 
-Please get started by reading and understanding the problem statement and our approach in this [publically available case study](https://community.moja.global/case-studies/powering-deforestation-prediction-using-artificial-intelligence). Try to understand the case study, the use-cases and how you can build an application around it. Share your thoughts on the `#machine-learning` channel and start working on the project's rough architecture and system design.
+Please get started by reading and understanding the problem statement and our approach in this [publically available case study](https://community.moja.global/case-studies/powering-deforestation-prediction-using-artificial-intelligence). Try to understand the case study, the use-cases and how you can build an application around it. Share your thoughts on the `#11-machine-learning` channel and start working on the project's rough architecture and system design.
 
 ## Idea: Object-oriented refactor of FLINT.Cloud
 
@@ -269,7 +269,7 @@ Experience with Python, Flask, and Object-oriented programming is preferable. Un
 
 ### First steps
 
-Introduce yourself on Slack in the `#cloud` channel. Download the FLINT.Cloud GCBM container and re-create the GCBM Demo Run. Share your findings on Slack under `#cloud`. Next, create a system design for the new implementation focusing on improving the API performance, and share it on Slack.
+Introduce yourself on Slack in the `#06-cloud` channel. Download the FLINT.Cloud GCBM container and re-create the GCBM Demo Run. Share your findings on Slack under `#06-cloud`. Next, create a system design for the new implementation focusing on improving the API performance, and share it on Slack.
 
 ## Idea: Develop FLINT Model Gallery to host simulation reports
 
@@ -307,7 +307,7 @@ Experience with Web development, GitHub Actions and Data Science is preferable. 
 
 ### First steps
 
-Introduce yourself on Slack in the #cloud channel. Download the FLINT.Cloud GCBM container and re-create the GCBM Demo Run. Share your findings on Slack under `#cloud`. Next, create a small contribution to the FLINT.Cloud project and ask a mentor to trigger the CML workflow. Infer the purpose of the workflow, and design an automation workflow to pull these generated reports into a centralized database to showcase them on a Model Gallery.
+Introduce yourself on Slack in the #cloud channel. Download the FLINT.Cloud GCBM container and re-create the GCBM Demo Run. Share your findings on Slack under `#06-cloud`. Next, create a small contribution to the FLINT.Cloud project and ask a mentor to trigger the CML workflow. Infer the purpose of the workflow, and design an automation workflow to pull these generated reports into a centralized database to showcase them on a Model Gallery.
 
 ## Idea: Improve FLINT-UI's performance and accessibility for better user-experience
 
@@ -343,4 +343,4 @@ During this project, the developer will be working with the UI working group und
 
 ### First steps
 
-Introduce yourself on Slack in the `#user-interface` channel and review the existing preconfigured FLINT modules on FLINT-UI. After running those modules, share your inferences as a small document to help us review your understanding of the project. Next, create a small contribution to the FLINT-UI project and ask mentors for feedback. Review the UI library and identify scopes for improvement to make them more accessible and performant.
+Introduce yourself on Slack in the `#09-user-interface` channel and review the existing preconfigured FLINT modules on FLINT-UI. After running those modules, share your inferences as a small document to help us review your understanding of the project. Next, create a small contribution to the FLINT-UI project and ask mentors for feedback. Review the UI library and identify scopes for improvement to make them more accessible and performant.
