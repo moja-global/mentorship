@@ -22,14 +22,14 @@ Our project involves finding 100+ small squares of forest worldwide and cross-re
 
 Although this project aims to run a unique FLINT simulation of forest dynamics for each location, the parameterization and analysis of these simulations will be developed by a cohort of community members of which you will be a part. You'll be responsible for helping set up a scalable and repeatable system for running these simulations, storing and sharing each result in a NoSQL Database (MongoDB). The DevOps Working Group has templates for local and cloud-based deployment of FLINT, and it's associated models that you can use.
 
-| Category              | Rating                               |
-| --------------------- | ------------------------------------ |
-| Difficulty            | Medium                               |
-| Priority              | High                                 |
-| Skills                | Python, MongoDB, CI/CD, Data Science |
-| Project Size          | Medium (175 hours)                   |
-| Preferred Contributor | Student/Professional                 |
-| Mentors               | @aornugent, @HarshCasper             |
+| Category              | Rating                                                                                     |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| Difficulty            | Medium                                                                                     |
+| Priority              | High                                                                                       |
+| Skills                | Python, MongoDB, CI/CD, Data Science                                                       |
+| Project Size          | Medium (175 hours)                                                                         |
+| Preferred Contributor | Student/Professional                                                                       |
+| Mentors               | [@aornugent](https://github.com/aornugent), [@HarshCasper](https://github.com/harshcasper) |
 
 ### Project Goals
 
@@ -207,14 +207,14 @@ The model pipeline involves predicting deforestation using Landsat 7 satellite i
 
 This project aims to *make the model available to a broader audience.* One of our goals since the project's inception has been to facilitate decision-makers to make informed decisions using our model. Open-sourcing the code and creating convenient interfaces to interact with the model are steps toward this goal.
 
-| Category              | Rating                                    |
-| --------------------- | ----------------------------------------- |
-| Difficulty            | Medium                                    |
-| Priority              | Medium                                    |
-| Skills                | Python, JavaScript, UI/UX, Design Systems |
-| Project Size          | Large (350 hours)                         |
-| Preferred Contributor | Student                                   |
-| Mentors               | @harshcasper                              |
+| Category              | Rating                                         |
+| --------------------- | ---------------------------------------------- |
+| Difficulty            | Medium                                         |
+| Priority              | Medium                                         |
+| Skills                | Python, JavaScript, UI/UX, Design Systems      |
+| Project Size          | Large (350 hours)                              |
+| Preferred Contributor | Student                                        |
+| Mentors               | [@harshcasper](https://github.com/harshcasper) |
 
 ### Project goals
 
@@ -247,14 +247,14 @@ Currently, the FLINT.Cloud offers two microservices: FLINT.Example REST API and 
 
 The goal of this project is to implement an object-oriented refactor for FLINT.Cloud, including the addition of `Flask-RESTful` to extend the project modularity. We are also open to exploring the use of FastAPI, which would involve refactoring the existing codebase to use the new framework. The project should also involve the investigation and implementation of asynchronous task processing to make the carbon simulations more efficient. The current scope of work also entails implementing the unit, integration, and E2E tests to cover the new functional implementation and scale aspects.
 
-| Category              | Rating                                                                   |
-| --------------------- | ------------------------------------------------------------------------ |
-| Difficulty            | Medium                                                                   |
-| Priority              | High                                                                     |
-| Skills                | Python, Flask, Docker, Object-Oriented programming, RESTful API design   |
-| Project Size          | Medium (175 hours)                                                       |
-| Preferred Contributor | Student                                                                  |
-| Mentors               | [Gopinath Balakrishnan](https://www.linkedin.com/in/bgopi), @harshcasper |
+| Category              | Rating                                                                                                     |
+| --------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Difficulty            | Medium                                                                                                     |
+| Priority              | High                                                                                                       |
+| Skills                | Python, Flask, Docker, Object-Oriented programming, RESTful API design                                     |
+| Project Size          | Medium (175 hours)                                                                                         |
+| Preferred Contributor | Student                                                                                                    |
+| Mentors               | [Gopinath Balakrishnan](https://www.linkedin.com/in/bgopi), [@harshcasper](https://github.com/harshcasper) |
 
 ### Project goals
 
@@ -291,14 +291,14 @@ This project aims to build a Model Gallery for hosting and showcasing simulation
 
 The project would also involve the development of a web application to make these simulations available to a broader audience. These simulations would also need to be triggered at a specific interval, after which they can be updated on the Model Gallery. The generated reports can then be cross-communicated with the Technical Steering Committee to showcase the capabilities of the FLINT and GCBM platforms.
 
-| Category              | Rating                                                     |
-| --------------------- | ---------------------------------------------------------- |
-| Difficulty            | Hard                                                       |
-| Priority              | Medium                                                     |
-| Skills                | VueJS, Flask, GitHub Actions, Docker, GitHub APIs, GraphQL |
-| Project Size          | Large (350 hours)                                          |
-| Preferred Contributor | Student                                                    |
-| Mentors               | @SanjaySinghRajpoot, @Janvi-Thakkar                        |
+| Category              | Rating                                                                                                           |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Difficulty            | Hard                                                                                                             |
+| Priority              | Medium                                                                                                           |
+| Skills                | VueJS, Flask, GitHub Actions, Docker, GitHub APIs, GraphQL                                                       |
+| Project Size          | Large (350 hours)                                                                                                |
+| Preferred Contributor | Student                                                                                                          |
+| Mentors               | [@SanjaySinghRajpoot](https://github.com/SanjaySinghRajpoot), [@Janvi-Thakkar](https://github.com/Janvi-Thakkar) |
 
 ### Project goals
 
@@ -335,14 +335,14 @@ This project would involve improving the performance & accessibility of FLINT-UI
 
 The project aims to serve the users from a stand-alone point of view to make our preconfigured FLINT modules available to many users while ensuring scale & stability. It would further integrate with the FLINT Model Gallery to facilitate showcasing these capabilities to a broader audience and help the moja global community make consistent decisions. The project would further benefit non-technical users like researchers, policymakers, and analysts to better understand FLINT and the overall simulation process.
 
-| Category              | Rating                                                        |
-| --------------------- | ------------------------------------------------------------- |
-| Difficulty            | Easy                                                          |
-| Priority              | Medium                                                        |
-| Skills                | VueJS, Web Accessibility, Jest, Cypress, Web Performance, CSS |
-| Project Size          | Medium (175 hours)                                            |
-| Preferred Contributor | Student                                                       |
-| Mentors               | @Palaksharma23, @Janvi-Thakkar                                |
+| Category              | Rating                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------ |
+| Difficulty            | Easy                                                                                                   |
+| Priority              | Medium                                                                                                 |
+| Skills                | VueJS, Web Accessibility, Jest, Cypress, Web Performance, CSS                                          |
+| Project Size          | Medium (175 hours)                                                                                     |
+| Preferred Contributor | Student                                                                                                |
+| Mentors               | [@Palaksharma23](https://github.com/Palaksharma23), [@Janvi-Thakkar](https://github.com/Janvi-Thakkar) |
 
 ### Project goals
 
@@ -379,14 +379,14 @@ This project involves developing a library to facilitate the analysis of data fr
 
 The first use case of this library is to collect and pre-process the data needed to model carbon sequestration in forests. Moja global developers will use the library to analyze different geographical locations, taking a subset of many spatially referenced datasets and compiling them to understand our forests' state comprehensively. Moja global developers can then use this information to create models that will help us predict future growth and assist with accurately and affordably estimating greenhouse gas emissions and removals from forestry, agriculture, and other land uses using moja global's flagship FLINT software.
 
-| Category              | Rating                     |
-| --------------------- | -------------------------- |
-| Difficulty            | Medium                     |
-| Priority              | Medium                     |
-| Skills                | Python, Data Analysis, Git |
-| Project Size          | Large (350 hours)          |
-| Preferred Contributor | Student/Professional       |
-| Mentors               | @aornugent, @simpleshell   |
+| Category              | Rating                                                                                      |
+| --------------------- | ------------------------------------------------------------------------------------------- |
+| Difficulty            | Medium                                                                                      |
+| Priority              | Medium                                                                                      |
+| Skills                | Python, Data Analysis, Git                                                                  |
+| Project Size          | Large (350 hours)                                                                           |
+| Preferred Contributor | Student/Professional                                                                        |
+| Mentors               | [@aornugent](https://github.com/aornugent), [@simpleshell](https://github.com/Simpleshell3) |
 
 ### Project goals
 
