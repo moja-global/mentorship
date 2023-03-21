@@ -125,3 +125,12 @@ We will assess our GSoD 2023 impact against the following metrics:
 -   Experience with carbon models, climate science, and science communication.
 -   Experience with land-use change monitoring and emissions accounting or desire to learn!
 -   Prior experience participating in an open-source community is a plus (but we welcome new contributors, too!).
+
+## Project Budget
+
+| Budget Item                                   | Amount  | Running Total | Notes/Justification                                                             |
+| --------------------------------------------- | ------- | ------------- | ------------------------------------------------------------------------------- |
+| Technical Writers                             | $12,000 | $12,000       | 2 Technical Writers x $6000 each                                                |
+| Volunteers                                    | $1500   | $13,500       | 3 Volunteers x $500 each                                                        |
+| Project T-Shirts                              | $150    | $13,650       | Amount includes T-Shirt and shipping costs                                      |
+| In kind contribution from moja global mentors | $0      | $13,650       | Involvement of 3 - 10 moja global representatives, developers and contributors. |
