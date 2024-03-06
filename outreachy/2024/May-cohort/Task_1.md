@@ -13,7 +13,7 @@ Once comfortable, please study the existing FLINTcloud templates and the Land Se
 
 ## Project 2: Packaging FLINT for cross-platform usage 
 Study the FLINT and follow our [FLINT Developer tutorial](https://www.youtube.com/playlist?list=PL_WECUlMWiUkyx5ohT2jglPSa58XmOhgY) and 
-[FLINT Development setup docs](https://docs.moja.global/en/latest/DevelopmentSetup/index.html) to get started. Formulate a release process 
+[FLINT Development setup docs](https://docs.moja.global/en/master/FLINT/FLINTDevelopmentSetup/index.html) to get started. Formulate a release process 
 plan and share your findings on the `#18-outreachy` channel.
 
 ## Project 3: Develop pipeline for high-throughput visualisation on Google Earth Engine
