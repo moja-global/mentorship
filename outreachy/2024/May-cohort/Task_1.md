@@ -7,7 +7,7 @@ Endeavor to follow the instructions as stated and don't forget to record your co
 
 ## Project 1: Developing a FLINT Forest Monitoring tool using Land Sector datasets
 
-Please introduce yourself in `#18-uutreachy` - we'd love to know where you come from and what you're interested in. Then proceed to the [FLINT Handbook](https://moja-global.github.io/Handbook/). If you'd like to install FLINT please review the instructions at [docs.moja.global](https://docs.moja.global) and as for help in `#05-installation-support`. We have some demonstration guides in the FLINTcloud and GCBM.Belize that you can follow to better understand the types of models we plan on using. 
+Please introduce yourself in `#18-outreachy` - we'd love to know where you come from and what you're interested in. Then proceed to the [FLINT Handbook](https://moja-global.github.io/Handbook/). If you'd like to install FLINT please review the instructions at [docs.moja.global](https://docs.moja.global) and as for help in `#05-installation-support`. We have some demonstration guides in the FLINTcloud and GCBM.Belize that you can follow to better understand the types of models we plan on using. 
 
 Once comfortable, please study the existing FLINTcloud templates and the Land Sector Datasets repository. Find an appropriate forest dataset and propose a location of interest (pick a forest you like!). Find another datasets of interest and document a workflow to extract and summarise forest squares in your location. Then share your findings on the `#18-outreachy` channel.
 
